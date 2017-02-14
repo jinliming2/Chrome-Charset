@@ -1,0 +1,45 @@
+{
+    "manifest_version": 2,
+    "name": "__MSG_appName__",
+    "version": "0.1",
+    "default_locale": "zh_CN",
+    "description": "__MSG_appDescription__",
+    "icons": {
+        "128": "i/128.png",
+        "64": "i/64.png",
+        "38": "i/38.png",
+        "32": "i/32.png",
+        "19": "i/19.png",
+        "16": "i/16.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "38": "i/38.png",
+            "19": "i/19.png"
+        },
+        "default_title": "__MSG_appName__",
+        "default_popup": "popup.html"
+    },
+    "author": "Liming Jin, jinliming2@gmail.com",
+    "background": {
+        "scripts": [
+            "j/background.js"
+        ]
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*/*", "file://*/*"],
+            "js": ["j/content.js"],
+            "run_at": "document_start"
+        }
+    ],
+    "homepage_url": "https://github.com/772807886/Chrome-Charset",
+    "incognito": "split",
+    "minimum_chrome_version": "55",
+    "permissions": [
+        "*://*/*",
+        "webRequest",
+        "webRequestBlocking"
+    ],
+    "short_name": "__MSG_appShortName__"
+}

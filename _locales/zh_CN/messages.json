@@ -1,0 +1,18 @@
+{
+    "appName": {
+        "message": "Charset",
+        "description": "Extension: Name"
+    },
+    "appShortName": {
+        "message": "Charset",
+        "description": "Extension: Short Name"
+    },
+    "appDescription": {
+        "message": "修改网站的默认编码",
+        "description": "Extension: Short Name"
+    },
+    "btnReset": {
+        "message": "复位",
+        "description": "Reset default charset"
+    }
+}
