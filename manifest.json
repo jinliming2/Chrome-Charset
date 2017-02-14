@@ -33,7 +33,7 @@
             "run_at": "document_start"
         }
     ],
-    "homepage_url": "https://github.com/772807886/Chrome-Charset",
+    "homepage_url": "https://github.com/jinliming2/Chrome-Charset",
     "incognito": "split",
     "minimum_chrome_version": "55",
     "permissions": [
