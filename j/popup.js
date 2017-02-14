@@ -11,7 +11,9 @@
             response = response || 'Unknown';
             document.getElementById('current').innerHTML = response;
         });
+        //I18N
         document.getElementById('reset').innerHTML = chrome.i18n.getMessage('btnReset');
+        document.getElementById('tip_current').innerHTML = chrome.i18n.getMessage('tipCurrent');
         document.querySelectorAll('button').forEach((button) => {
             button.addEventListener('click', (e) => {
                 if(e.target.dataset.charset) {

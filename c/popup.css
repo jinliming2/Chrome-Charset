@@ -1,0 +1,30 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 250px;
+    font-family: 'Microsoft YaHei', sans-serif;
+}
+
+#tip_current {
+    font-size: 18px;
+}
+
+button {
+    display: block;
+    color: white;
+    padding: 6px;
+    width: 98%;
+    margin: 2px;
+    background-color: #f57c00;
+    border: #c24900;
+    border-radius: 5px;
+    opacity: .8;
+}
+
+button:hover {
+    opacity: .9;
+}
+
+button:active {
+    opacity: 1;
+}

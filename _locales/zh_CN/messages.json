@@ -14,5 +14,9 @@
     "btnReset": {
         "message": "复位",
         "description": "Reset default charset"
+    },
+    "tipCurrent": {
+        "message": "当前：",
+        "description": "The encoding used for the current page"
     }
 }
