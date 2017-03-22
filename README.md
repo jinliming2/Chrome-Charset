@@ -13,5 +13,8 @@ A Google Chrome extension used to modify the page default encoding for Google Ch
 [Google Chrome Web Store](https://chrome.google.com/webstore/detail/oenllhgkiiljibhfagbfogdbchhdchml)
 
 ## History
+###v0.2(2017/3/22)
+1. 修改编码列表加载逻辑。
+
 ###v0.1(2017/2/14)
-1. 测试版，支持Chrome 54选择编码功能中所列出的编码进行了支持。
+1. 测试版，对Chrome 54选择编码功能中所列出的编码进行了支持。
