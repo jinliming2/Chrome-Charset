@@ -18,5 +18,59 @@
     "tipCurrent": {
         "message": "当前：",
         "description": "The encoding used for the current page"
+    },
+    "default": {
+        "message": "默认"
+    },
+    "Chinese": {
+        "message": "中文"
+    },
+    "Arabic": {
+        "message": "阿拉伯语"
+    },
+    "Baltic": {
+        "message": "波罗的海周边语言"
+    },
+    "Celtic": {
+        "message": "凯尔特语"
+    },
+    "CentralEuropean": {
+        "message": "中欧语言"
+    },
+    "Cyrillic": {
+        "message": "西里尔语"
+    },
+    "Greek": {
+        "message": "希腊语"
+    },
+    "Hebrew": {
+        "message": "希伯来语"
+    },
+    "Japanese": {
+        "message": "日语"
+    },
+    "Korean": {
+        "message": "韩语"
+    },
+    "Nordic": {
+        "message": "北欧语言"
+    },
+    "Romanian": {
+        "message": "罗马尼亚语"
+    },
+    "SouthEuropean": {
+        "message": "南欧语言"
+    },
+    "Thai": {
+        "message": "泰语"
+    },
+    "Turkish": {
+        "message": "土耳其语"
+    },
+    "Vietnamese": {
+        "message": "越南语"
+    },
+    "Western": {
+        "message": "西欧语言"
     }
 }

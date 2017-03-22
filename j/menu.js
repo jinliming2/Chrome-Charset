@@ -7,7 +7,7 @@
     let menuList = {};
     menuList['default'] = chrome.contextMenus.create({
         type: "radio",
-        title: "默认",
+        title: chrome.i18n.getMessage('default'),
         checked: true,
         onclick: (info, tab) => {
             if(!info.wasChecked) {
