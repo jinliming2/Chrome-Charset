@@ -9,22 +9,42 @@
         }
         chrome.tabs.sendMessage(tabs[0].id, {action: 'GetCharset'}, (response) => {
             response = response || 'Unknown';
+            if(response != 'Unknown') {
+                for(let encoding of ENCODINGS) {
+                    if(encoding[0].toUpperCase() == response.toUpperCase()) {
+                        response += `（${encoding[1]}）`;
+                        break;
+                    }
+                }
+            }
             document.getElementById('current').innerHTML = response;
         });
         //I18N
         document.getElementById('reset').innerHTML = chrome.i18n.getMessage('btnReset');
         document.getElementById('tip_current').innerHTML = chrome.i18n.getMessage('tipCurrent');
-        document.querySelectorAll('button').forEach((button) => {
+        //Reset
+        document.getElementById('reset').addEventListener('click', () => {
+            resetEncoding(tabs[0].id, () => {
+                window.close();
+            });
+        });
+        //Make List
+        let list = document.getElementById('list');
+        for(let encoding of ENCODINGS) {
+            if(encoding.length == 1) {
+                list.appendChild(document.createElement('hr'));
+                continue;
+            }
+            let button = document.createElement('button');
+            button.type = 'button';
+            button.dataset.charset = encoding[0];
+            button.innerHTML = `${encoding[1]}（${encoding[0]}）`;
             button.addEventListener('click', (e) => {
-                if(e.target.dataset.charset) {
-                    localStorage.setItem('tab' + tabs[0].id, e.target.dataset.charset);
-                } else {
-                    localStorage.removeItem('tab' + tabs[0].id);
-                }
-                chrome.tabs.reload(tabs[0].id, {bypassCache: true}, () => {
+                setEncoding(tabs[0].id, e.target.dataset.charset, () => {
                     window.close();
                 });
             });
-        });
+            list.appendChild(button);
+        }
     });
 })();

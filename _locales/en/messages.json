@@ -8,69 +8,69 @@
         "description": "Extension: Short Name"
     },
     "appDescription": {
-        "message": "修改网站的默认编码",
+        "message": "Modify the default encoding for the website",
         "description": "Extension: Short Name"
     },
     "btnReset": {
-        "message": "复位",
+        "message": "Reset",
         "description": "Reset default charset"
     },
     "tipCurrent": {
-        "message": "当前：",
+        "message": "Current：",
         "description": "The encoding used for the current page"
     },
     "default": {
-        "message": "默认"
+        "message": "Default"
     },
     "Chinese": {
-        "message": "中文"
+        "message": "Chinese"
     },
     "Arabic": {
-        "message": "阿拉伯语"
+        "message": "Arabic"
     },
     "Baltic": {
-        "message": "波罗的海周边语言"
+        "message": "Baltic"
     },
     "Celtic": {
-        "message": "凯尔特语"
+        "message": "Celtic"
     },
     "CentralEuropean": {
-        "message": "中欧语言"
+        "message": "Central European"
     },
     "Cyrillic": {
-        "message": "西里尔语"
+        "message": "Cyrillic"
     },
     "Greek": {
-        "message": "希腊语"
+        "message": "Greek"
     },
     "Hebrew": {
-        "message": "希伯来语"
+        "message": "Hebrew"
     },
     "Japanese": {
-        "message": "日语"
+        "message": "Japanese"
     },
     "Korean": {
-        "message": "韩语"
+        "message": "Korean"
     },
     "Nordic": {
-        "message": "北欧语言"
+        "message": "Nordic"
     },
     "Romanian": {
-        "message": "罗马尼亚语"
+        "message": "Romanian"
     },
     "SouthEuropean": {
-        "message": "南欧语言"
+        "message": "South European"
     },
     "Thai": {
-        "message": "泰语"
+        "message": "Thai"
     },
     "Turkish": {
-        "message": "土耳其语"
+        "message": "Turkish"
     },
     "Vietnamese": {
-        "message": "越南语"
+        "message": "Vietnamese"
     },
     "Western": {
-        "message": "西欧语言"
+        "message": "Western"
     }
 }
