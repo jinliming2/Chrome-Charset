@@ -52,3 +52,7 @@ let resetEncoding = (tabId, callback) => {
     localStorage.removeItem('tab' + tabId);
     chrome.tabs.reload(tabId, {bypassCache: true}, callback);
 };
+
+let getEncoding = (tabId) => {
+    return localStorage.getItem('tab' + tabId);
+};

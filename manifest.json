@@ -23,7 +23,9 @@
     "author": "Liming Jin, jinliming2@gmail.com",
     "background": {
         "scripts": [
-            "j/background.js"
+            "j/background.js",
+            "j/encoding.js",
+            "j/menu.js"
         ]
     },
     "content_scripts": [
@@ -39,7 +41,8 @@
     "permissions": [
         "*://*/*",
         "webRequest",
-        "webRequestBlocking"
+        "webRequestBlocking",
+        "contextMenus"
     ],
     "short_name": "__MSG_appShortName__"
 }
