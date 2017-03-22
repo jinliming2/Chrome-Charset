@@ -1,1 +1,5 @@
 .idea
+node_modules
+Chrome-Charset.zip
+Gruntfile.js
+package.json

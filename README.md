@@ -9,3 +9,9 @@ A Google Chrome extension used to modify the page default encoding for Google Ch
 
 用于在Google Chrome浏览器下修改网站默认编码的扩展程序。
 
+## Release
+[Google Chrome Web Store](https://chrome.google.com/webstore/detail/oenllhgkiiljibhfagbfogdbchhdchml)
+
+## History
+###v0.1(2017/2/14)
+1. 测试版，支持Chrome 54选择编码功能中所列出的编码进行了支持。
