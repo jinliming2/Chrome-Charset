@@ -17,6 +17,7 @@ A Google Chrome extension used to modify the page default encoding for Google Ch
 1. 修改编码列表加载逻辑。
 2. 右上角窗口检测当前编码时显示注释。
 3. 添加右键菜单。
+4. 添加英语支持。
 
 ###v0.1(2017/2/14)
 1. 测试版，对Chrome 54选择编码功能中所列出的编码进行了支持。
