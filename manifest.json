@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "__MSG_appName__",
-    "version": "0.2",
+    "version": "0.3",
     "default_locale": "zh_CN",
     "description": "__MSG_appDescription__",
     "icons": {
@@ -39,10 +39,11 @@
     "incognito": "split",
     "minimum_chrome_version": "55",
     "permissions": [
-        "*://*/*",
+        "<all_urls>",
         "webRequest",
         "webRequestBlocking",
-        "contextMenus"
+        "contextMenus",
+        "tabs"
     ],
     "short_name": "__MSG_appShortName__"
 }

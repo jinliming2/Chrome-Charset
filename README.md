@@ -20,6 +20,8 @@ A Google Chrome extension used to modify the page default encoding for Google Ch
 [Google Chrome Web Store](https://chrome.google.com/webstore/detail/oenllhgkiiljibhfagbfogdbchhdchml)
 
 ## History
+### v0.3(2017/4/17)
+
 ### v0.2(2017/3/22)
 1. 修改编码列表加载逻辑。
 2. 右上角窗口检测当前编码时显示注释。

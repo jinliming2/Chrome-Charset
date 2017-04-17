@@ -4,21 +4,33 @@
 "use strict";
 (() => {
     chrome.tabs.query({active: true, currentWindow: true}, (tabs) => {
-        if(tabs.length == 0) {
+        if(tabs.length === 0) {
             return;
         }
-        chrome.tabs.sendMessage(tabs[0].id, {action: 'GetCharset'}, (response) => {
-            response = response || 'Unknown';
-            if(response != 'Unknown') {
-                for(let encoding of ENCODINGS) {
-                    if(encoding[0].toUpperCase() == response.toUpperCase()) {
-                        response += `（${encoding[1]}）`;
-                        break;
-                    }
+        //Current Charset
+        if(tabs[0].url.startsWith('file://') && localStorage.getItem('tab' + tabs[0].id)) {
+            let charset = localStorage.getItem('tab' + tabs[0].id);
+            for(let encoding of ENCODINGS) {
+                if(encoding[0].toUpperCase() === charset.toUpperCase()) {
+                    charset += `（${encoding[1]}）`;
+                    break;
                 }
             }
-            document.getElementById('current').innerHTML = response;
-        });
+            document.getElementById('current').innerHTML = charset;
+        } else {
+            chrome.tabs.sendMessage(tabs[0].id, {action: 'GetCharset'}, (response) => {
+                response = response || 'Unknown';
+                if(response !== 'Unknown') {
+                    for(let encoding of ENCODINGS) {
+                        if(encoding[0].toUpperCase() === response.toUpperCase()) {
+                            response += `（${encoding[1]}）`;
+                            break;
+                        }
+                    }
+                }
+                document.getElementById('current').innerHTML = response;
+            });
+        }
         //I18N
         document.getElementById('reset').innerHTML = chrome.i18n.getMessage('btnReset');
         document.getElementById('tip_current').innerHTML = chrome.i18n.getMessage('tipCurrent');
@@ -31,7 +43,7 @@
         //Make List
         let list = document.getElementById('list');
         for(let encoding of ENCODINGS) {
-            if(encoding.length == 1) {
+            if(encoding.length === 1) {
                 list.appendChild(document.createElement('hr'));
                 continue;
             }

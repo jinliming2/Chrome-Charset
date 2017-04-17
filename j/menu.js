@@ -16,7 +16,7 @@
         }
     });
     for(let encoding of ENCODINGS) {
-        if(encoding.length == 1) {
+        if(encoding.length === 1) {
             continue;
         }
         menuList[encoding[0].toUpperCase()] = chrome.contextMenus.create({
@@ -52,7 +52,7 @@
     });
     chrome.windows.onFocusChanged.addListener(() => {
         chrome.tabs.query({active: true, currentWindow: true}, (tabs) => {
-            if(tabs.length == 0) {
+            if(tabs.length === 0) {
                 return;
             }
             updateMenu(tabs[0].id);
