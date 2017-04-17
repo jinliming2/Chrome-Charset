@@ -11,6 +11,9 @@
         "message": "Modify the default encoding for the website",
         "description": "Extension: Short Name"
     },
+    "cannotLoadLocalFile": {
+        "message": "Charset extension cannot load file:// protocol files!\nPlease check the \"Allow access to file URLs\" option in Chrome menu > More tools > Extensions."
+    },
     "btnReset": {
         "message": "Reset",
         "description": "Reset default charset"

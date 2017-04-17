@@ -21,6 +21,7 @@ A Google Chrome extension used to modify the page default encoding for Google Ch
 
 ## History
 ### v0.3(2017/4/17)
+1. 增加对file://协议本地文件的支持。
 
 ### v0.2(2017/3/22)
 1. 修改编码列表加载逻辑。
