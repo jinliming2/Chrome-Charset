@@ -11,6 +11,9 @@
         "message": "修改网站的默认编码",
         "description": "Extension: Short Name"
     },
+    "cannotLoadLocalFile": {
+        "message": "Charset扩展程序无法读取file://协议文件！\n请在扩展设置页面勾选“允许访问文件网址”选项！\"123\""
+    },
     "btnReset": {
         "message": "复位",
         "description": "Reset default charset"

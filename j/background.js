@@ -59,7 +59,7 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
             });
         };
         xmlHttp.onerror = () => {
-            console.error('Charset扩展程序无法读取file://协议文件，请在扩展设置页面勾选“允许访问文件网址”选项！');
+            alert(chrome.i18n.getMessage('cannotLoadLocalFile'));
         };
         xmlHttp.open('GET', tab.url, true);
         xmlHttp.send();
