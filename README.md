@@ -20,6 +20,9 @@ A Google Chrome extension used to modify the page default encoding for Google Ch
 [Google Chrome Web Store](https://chrome.google.com/webstore/detail/oenllhgkiiljibhfagbfogdbchhdchml)
 
 ## History
+### v0.3.1(2017/5/7)
+1. 【修复】file协议下修改html文档编码失败的Bug。
+
 ### v0.3(2017/4/17)
 1. 增加对file://协议本地文件的支持。
 
