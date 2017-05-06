@@ -53,7 +53,7 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
             const data = is_html ? encodeURI(xmlHttp.responseText) : encodeURI(html_special_chars(xmlHttp.responseText));
             chrome.tabs.executeScript(tabId, {
                 code: `const _t = document.open('text/${is_html ? 'html' : 'plain'}', 'replace');
-                _t.write('${is_html ? `decodeURI('${data}')` : `<pre>' + decodeURI('${data}') + '</pre>`}');
+                _t.write(${is_html ? `decodeURI('${data}')` : `'<pre>' + decodeURI('${data}') + '</pre>'`});
                 _t.close();`,
                 runAt: 'document_start'
             });
