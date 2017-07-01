@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
     "name": "__MSG_appName__",
-    "version": "0.3.1",
-    "default_locale": "zh_CN",
+    "version": "0.4",
+    "default_locale": "en",
     "description": "__MSG_appDescription__",
     "icons": {
         "128": "i/128.png",
@@ -30,7 +30,7 @@
     },
     "content_scripts": [
         {
-            "matches": ["*://*/*", "file://*/*"],
+            "matches": ["<all_urls>"],
             "js": ["j/content.js"],
             "run_at": "document_start"
         }
