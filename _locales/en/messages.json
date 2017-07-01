@@ -19,8 +19,12 @@
         "description": "Reset default charset"
     },
     "tipCurrent": {
-        "message": "Current：",
+        "message": "Current: ",
         "description": "The encoding used for the current page"
+    },
+    "settingMenu": {
+        "message": "ContextMenu: ",
+        "description": "Show Menu or Not"
     },
     "default": {
         "message": "Default"

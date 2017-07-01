@@ -28,3 +28,67 @@ button:hover {
 button:active {
     opacity: 1;
 }
+
+.setting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type=checkbox] {
+    visibility: hidden;
+}
+
+.switch {
+    flex-shrink: 0;
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    background: #f57c00;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.switch:before {
+    content: 'On';
+    position: absolute;
+    top: 4px;
+    left: 13px;
+    height: 2px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.switch:after {
+    content: 'Off';
+    position: absolute;
+    top: 4px;
+    left: 84px;
+    height: 2px;
+    color: #888;
+    font-size: 16px;
+}
+
+.switch label {
+    display: block;
+    width: 52px;
+    height: 18px;
+    cursor: pointer;
+    position: absolute;
+    top: 6px;
+    z-index: 1;
+    left: 12px;
+    background: #888;
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.switch input[type=checkbox]:checked + label {
+    left: 60px;
+    background: #fff;
+}

@@ -2,7 +2,10 @@
  * Created by Liming on 2017/2/14.
  */
 "use strict";
+const config = localStorage.getItem('config_menu');
 localStorage.clear();
+localStorage.setItem('config_menu', config);
+
 const charsetPattern = /; ?charset=([^;]+)/;
 const html_special_chars = (html) => html.replace(/&/g, '&gt;')
     .replace(/</g, '&lt;')

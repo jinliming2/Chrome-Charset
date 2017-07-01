@@ -22,6 +22,10 @@
         "message": "当前：",
         "description": "The encoding used for the current page"
     },
+    "settingMenu": {
+        "message": "显示右键菜单：",
+        "description": "Show Menu or Not"
+    },
     "default": {
         "message": "默认"
     },

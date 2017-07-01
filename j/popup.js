@@ -34,6 +34,7 @@
         //I18N
         document.getElementById('reset').innerHTML = chrome.i18n.getMessage('btnReset');
         document.getElementById('tip_current').innerHTML = chrome.i18n.getMessage('tipCurrent');
+        document.getElementById('context_menu').innerHTML = chrome.i18n.getMessage('settingMenu');
         //Reset
         document.getElementById('reset').addEventListener('click', () => {
             resetEncoding(tabs[0].id, () => {
@@ -58,5 +59,14 @@
             });
             list.appendChild(button);
         }
+        //Settings
+        const setting_Menu = document.getElementById('menu');
+        setting_Menu.checked = localStorage.getItem('config_menu') !== 'false';
+        setting_Menu.addEventListener('change', _ => {
+            localStorage.setItem('config_menu', setting_Menu.checked);
+            chrome.runtime.sendMessage({
+                action: setting_Menu.checked ? 'ShowMenu' : 'HideMenu'
+            });
+        });
     });
 })();
