@@ -24,6 +24,7 @@ chrome.webRequest.onHeadersReceived.addListener((details) => {
                 if(
                     value.startsWith('text') ||
                     value.startsWith('application/javascript') ||
+                    value.startsWith('application/x-javascript') ||
                     value.startsWith('application/json')
                 ) {
                     if(charsetPattern.test(value)) {
