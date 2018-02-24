@@ -41,7 +41,7 @@ chrome.webRequest.onHeadersReceived.addListener((details) => {
         if(i >= details.responseHeaders.length) {
             details.responseHeaders.push({
                 name: 'Content-Type',
-                value: 'text/html; charset=' + localStorage.getItem('tab' + details.tabId)
+                value: 'text/plain; charset=' + localStorage.getItem('tab' + details.tabId)
             });
         }
     }
