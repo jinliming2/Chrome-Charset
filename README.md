@@ -20,6 +20,9 @@ A Google Chrome extension used to modify the page default encoding for Google Ch
 [Google Chrome Web Store](https://chrome.google.com/webstore/detail/oenllhgkiiljibhfagbfogdbchhdchml)
 
 ## History
+### v0.4.2(2018/2/24)
+1. 【修复】如果网站没有提供 Content-Type，则应该使用 text/plain 作为默认 Content-Type 而不是 text/html。
+
 ### v0.4.1(2017/7/31)
 1. 【修复】部分纯js内容的Content-Type为application/x-javascript而导致匹配失败不转换编码的问题（GitHub Issue：[#2](https://github.com/jinliming2/Chrome-Charset/issues/2)）
 
