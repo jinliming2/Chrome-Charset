@@ -15,6 +15,10 @@ const html_special_chars = (html) => html.replace(/&/g, '&gt;')
     .replace(/"/g, '&quot;')
     .replace(/\r\n?|\n/g, '<br>');
 
+const options = ['responseHeaders', 'blocking'];
+if(chrome.webRequest.OnBeforeSendHeadersOptions.hasOwnProperty('EXTRA_HEADERS')) {
+    options.push('extraHeaders');
+}
 chrome.webRequest.onHeadersReceived.addListener((details) => {
     if(localStorage.getItem('tab' + details.tabId)) {
         let i;
@@ -46,7 +50,7 @@ chrome.webRequest.onHeadersReceived.addListener((details) => {
         }
     }
     return {responseHeaders: details.responseHeaders};
-}, {urls: ["<all_urls>"]}, ["responseHeaders", "blocking"]);
+}, {urls: ["<all_urls>"]}, options);
 
 chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
     if(tab.url.startsWith('file://') && changeInfo.status === 'complete' && localStorage.getItem('tab' + tabId)) {
