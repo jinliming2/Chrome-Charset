@@ -1,7 +1,7 @@
 /**
  * Created by Liming on 2017/2/14.
  */
-const charsetPattern = /; ?CHARSET=([^;]+)/;
+const charsetPattern = /; ?charset=([^;]+)/;
 const html_special_chars = html => html
   .replace(/&/g, '&gt;')
   .replace(/</g, '&lt;')

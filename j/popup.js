@@ -42,7 +42,10 @@ chrome.tabs.query({ active: true, currentWindow: true }, async tabs => {
   const defaultEncoding = localStorage.getItem('config_enable_default');
   if (defaultEncoding && (!currentEncoding || defaultEncoding.toUpperCase() !== currentEncoding.toUpperCase())) {
     const encodingInfo = ENCODINGS.find(e => e[0].toUpperCase() === defaultEncoding.toUpperCase());
-    document.getElementById('default-tip').innerHTML = chrome.i18n.getMessage('defaultEncodingEnabled', [printEncodingInfo(encodingInfo)]);
+    const defaultTip = document.getElementById('default-tip');
+    defaultTip.innerHTML = chrome.i18n.getMessage('defaultEncodingEnabled', [printEncodingInfo(encodingInfo)]);
+    defaultTip.title = chrome.i18n.getMessage('tipDisableDefaultEncoding');
+    defaultTip.addEventListener('click', () => chrome.runtime.openOptionsPage());
   }
   // Reset button
   document.getElementById('reset').addEventListener('click', () => {

@@ -31,6 +31,9 @@
   "defaultEncodingEnabled": {
     "message": "Default Encoding: $1"
   },
+  "tipDisableDefaultEncoding": {
+    "message": "You can disable this in the Options page."
+  },
   "optionMenu": {
     "message": "Context Menu"
   },
