@@ -48,7 +48,6 @@ const createMenu = () => {
   });
   for (const encoding of ENCODINGS) {
     if (encoding.length === 1) {
-      chrome.contextMenus.create({ type: 'separator' });
       continue;
     }
     chrome.contextMenus.create({
