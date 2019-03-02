@@ -1,34 +1,92 @@
-html, body {
-  padding: 0;
-  margin: 0;
-  width: 250px;
+:root {
+  --font-colour: #202124;
+  --border: 1px solid #d2e3fc;
+  --google-blue-600: #1a73e8;
+}
+html {
+  min-width: fit-content;
   direction: __MSG_@@bidi_dir__;
 }
-
-#info-current {
-  padding: 4px 8px;
+body {
+  margin: 0;
+  color: var(--font-colour);
+  font-family: Roboto,'Segoe UI',Arial,'Microsoft Yahei',sans-serif;
+  font-size: 81.25%;
 }
-
-#tip-current {
-  font-size: 18px;
-}
-
 button {
-  display: block;
-  color: white;
-  padding: 6px;
-  width: 98%;
-  margin: 2px;
-  background-color: #f57c00;
-  border: #c24900;
-  border-radius: 5px;
-  opacity: .8;
+  border: none;
+  border-top: var(--border);
+  background: transparent;
+  cursor: pointer;
+  color: var(--google-blue-600);
+  font-weight: 500;
+  padding: 8px 16px;
+  width: 100%;
+  min-width: fit-content;
+  white-space: nowrap;
+  height: 32px;
+  outline: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
 }
-
 button:hover {
-  opacity: .9;
+  background-color: rgba(66, 133, 244, .04);
 }
-
 button:active {
-  opacity: 1;
+  background: #fff;
+}
+button .ink {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+}
+button .ink .ripple {
+  border-radius: 50%;
+  background-color: var(--google-blue-600);
+  position: absolute;
+  opacity: .1;
+  pointer-events: none;
+  will-change: height, transform, width;
+}
+hr {
+  margin: 0;
+  border: var(--border);
+}
+.line {
+  border-top: 1px solid rgba(0, 0, 0, .06);
+  display: flex;
+  align-items: center;
+  min-height: 48px;
+  padding: 0 20px;
+  line-height: 154%;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+.line:first-child {
+  border-top: none;
+}
+.line.tip {
+  min-height: 0;
+  background-color: #f1f3f4;
+}
+.line > :not(:first-child) {
+  -webkit-margin-start: 1em;
+  margin-inline-start: 1em;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #8db9f4;
+}
+::-webkit-scrollbar-track-piece {
+    background-color: #d2e3fc;
 }

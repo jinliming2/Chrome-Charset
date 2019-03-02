@@ -81,7 +81,6 @@ input[type=checkbox]:checked + .checkbox .checkbox-knob {
 }
 .checkbox-knob .ink {
   color: #80868b;
-  display: block;
   position: absolute;
   top: -12px;
   left: -12px;
@@ -91,7 +90,7 @@ input[type=checkbox]:checked + .checkbox .checkbox-knob {
   pointer-events: none;
   overflow: hidden;
   transition: color linear 80ms;
-  transform: translate(0)
+  transform: translate(0);
 }
 input[type=checkbox]:checked + .checkbox .checkbox-knob .ink {
   color: var(--google-blue-600);

@@ -164,13 +164,13 @@ const unsetDefaultEncoding = () => {
 
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   switch(message.type) {
-    case 'setEncoding': setEncoding(message.tabId, message.encoding); break;
-    case 'resetEncoding': resetEncoding(message.tabId); break;
+    case 'setEncoding': sendResponse(setEncoding(message.tabId, message.encoding)); break;
+    case 'resetEncoding': sendResponse(resetEncoding(message.tabId)); break;
     case 'getEncoding': sendResponse(getEncoding(message.tabId)); break;
-    case 'createMenu': removeMenu(); createMenu(); break;
-    case 'removeMenu': removeMenu(); break;
-    case 'setupDefaultEncoding': unsetDefaultEncoding(); setupDefaultEncoding(); break;
-    case 'unsetDefaultEncoding': unsetDefaultEncoding(); break;
+    case 'createMenu': removeMenu(); sendResponse(createMenu()); break;
+    case 'removeMenu': sendResponse(removeMenu()); break;
+    case 'setupDefaultEncoding': unsetDefaultEncoding(); sendResponse(setupDefaultEncoding()); break;
+    case 'unsetDefaultEncoding': sendResponse(unsetDefaultEncoding()); break;
   }
 });
 

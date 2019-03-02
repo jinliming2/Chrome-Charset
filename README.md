@@ -28,6 +28,7 @@ A Google Chrome extension used to modify the page default encoding for Google Ch
 5. 【新增】记录并置顶最近使用的三个编码
 6. 【新增】支持设置默认编码，对所有页面生效（GitHub Issue：[#8](https://github.com/jinliming2/Chrome-Charset/issues/8)）
 7. 【新增】配置选项页面
+8. 【样式】重新设计 popup 弹窗页面样式
 
 ### v0.4.3(2019/1/5)
 1. 【修复】由于 Chrome 72（也许更早）开始支持 Network Service，导致编码修改失败的问题

@@ -26,7 +26,10 @@
     "message": "Reset"
   },
   "tipCurrent": {
-    "message": "Current: "
+    "message": "Current Page"
+  },
+  "defaultEncodingEnabled": {
+    "message": "Default Encoding: $1"
   },
   "optionMenu": {
     "message": "Context Menu"
