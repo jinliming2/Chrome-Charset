@@ -1,0 +1,66 @@
+{
+  "staticEncodingList": {
+    "message": "",
+    "description": "Locale dependent static encoding list"
+  },
+  "default": {
+    "message": "Lalai"
+  },
+  "encodingUnicode": {
+    "message": "Unikod"
+  },
+  "encodingWestern": {
+    "message": "Barat"
+  },
+  "encodingChineseSimplified": {
+    "message": "Bahasa Cina Mudah"
+  },
+  "encodingChineseTraditional": {
+    "message": "Bahasa Cina Tradisional"
+  },
+  "encodingKorean": {
+    "message": "Bahasa Korea"
+  },
+  "encodingJapanese": {
+    "message": "Bahasa Jepun"
+  },
+  "encodingThai": {
+    "message": "Bahasa Thai"
+  },
+  "encodingCentralEuropean": {
+    "message": "Eropah Tengah"
+  },
+  "encodingCyrillic": {
+    "message": "Cyril"
+  },
+  "encodingGreek": {
+    "message": "Bahasa Greek"
+  },
+  "encodingBaltic": {
+    "message": "Baltik"
+  },
+  "encodingSouthEuropean": {
+    "message": "Eropah Selatan"
+  },
+  "encodingNordic": {
+    "message": "Nordic"
+  },
+  "encodingCeltic": {
+    "message": "Celtic"
+  },
+  "encodingRomanian": {
+    "message": "Bahasa Romania"
+  },
+  "encodingTurkish": {
+    "message": "Bahasa Turki"
+  },
+  "encodingArabic": {
+    "message": "Bahasa Arab"
+  },
+  "encodingHebrew": {
+    "message": "Bahasa Ibrani"
+  },
+  "encodingVietnamese": {
+    "message": "Bahasa Vietnam"
+  }
+}

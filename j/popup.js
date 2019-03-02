@@ -1,72 +1,59 @@
 /**
  * Created by Liming on 2017/2/14.
  */
-"use strict";
-(() => {
-    chrome.tabs.query({active: true, currentWindow: true}, (tabs) => {
-        if(tabs.length === 0) {
-            return;
-        }
-        //Current Charset
-        if(tabs[0].url.startsWith('file://') && localStorage.getItem('tab' + tabs[0].id)) {
-            let charset = localStorage.getItem('tab' + tabs[0].id);
-            for(let encoding of ENCODINGS) {
-                if(encoding[0].toUpperCase() === charset.toUpperCase()) {
-                    charset += `（${encoding[1]}）`;
-                    break;
-                }
-            }
-            document.getElementById('current').innerHTML = charset;
-        } else {
-            chrome.tabs.sendMessage(tabs[0].id, {action: 'GetCharset'}, (response) => {
-                response = response || 'Unknown';
-                if(response !== 'Unknown') {
-                    for(let encoding of ENCODINGS) {
-                        if(encoding[0].toUpperCase() === response.toUpperCase()) {
-                            response += `（${encoding[1]}）`;
-                            break;
-                        }
-                    }
-                }
-                document.getElementById('current').innerHTML = response;
-            });
-        }
-        //I18N
-        document.getElementById('reset').innerHTML = chrome.i18n.getMessage('btnReset');
-        document.getElementById('tip_current').innerHTML = chrome.i18n.getMessage('tipCurrent');
-        document.getElementById('context_menu').innerHTML = chrome.i18n.getMessage('settingMenu');
-        //Reset
-        document.getElementById('reset').addEventListener('click', () => {
-            resetEncoding(tabs[0].id, () => {
-                window.close();
-            });
-        });
-        //Make List
-        let list = document.getElementById('list');
-        for(let encoding of ENCODINGS) {
-            if(encoding.length === 1) {
-                list.appendChild(document.createElement('hr'));
-                continue;
-            }
-            let button = document.createElement('button');
-            button.type = 'button';
-            button.dataset.charset = encoding[0];
-            button.innerHTML = `${encoding[1]}（${encoding[0]}）`;
-            button.addEventListener('click', (e) => {
-                setEncoding(tabs[0].id, e.target.dataset.charset, () => {
-                    window.close();
-                });
-            });
-            list.appendChild(button);
-        }
-        //Settings
-        const setting_Menu = document.getElementById('menu');
-        setting_Menu.checked = localStorage.getItem('config_menu') !== 'false';
-        setting_Menu.addEventListener('change', _ => {
-            localStorage.setItem('config_menu', setting_Menu.checked);
-            chrome.runtime.sendMessage({
-                action: setting_Menu.checked ? 'ShowMenu' : 'HideMenu'
-            });
-        });
+const rtl = chrome.i18n.getMessage('@@bidi_dir') === 'rtl' ? '&rlm;' : '';
+const printEncodingInfo = info => `${info[1]} ${rtl}(${info[0]})`;
+
+chrome.tabs.query({ active: true, currentWindow: true }, async tabs => {
+  if (tabs.length === 0) {
+    return;
+  }
+  // Detect current encoding
+  const currentDOM = document.getElementById('current');
+  currentDOM.innerHTML = '......';
+  const fileEncoding = tabs[0].url.startsWith('file://') &&
+    await new Promise(resolve => chrome.runtime.sendMessage({ type: 'getEncoding', tabId: tabs[0].id }, resolve));
+  if (fileEncoding) {
+    const encodingInfo = ENCODINGS.find(e => e[0].toUpperCase() === fileEncoding.toUpperCase());
+    currentDOM.innerHTML = encodingInfo ? printEncodingInfo(encodingInfo) : chrome.i18n.getMessage('unknown');
+  } else {
+    chrome.tabs.executeScript(tabs[0].id, { code: 'document.charset' }, (results) => {
+      if (!results || !results[0]) {
+        currentDOM.innerHTML = chrome.i18n.getMessage('unknown');
+        return chrome.runtime.lastError;
+      }
+      const encodingInfo = ENCODINGS.find(e => e[0].toUpperCase() === String(results[0]).toUpperCase());
+      currentDOM.innerHTML = printEncodingInfo(encodingInfo || [results[0], chrome.i18n.getMessage('unknown')]);
     });
-})();
+  }
+  // I18n
+  document.getElementById('reset').innerHTML = chrome.i18n.getMessage('btnReset');
+  document.getElementById('tip-current').innerHTML = chrome.i18n.getMessage('tipCurrent');
+  // Reset Button
+  document.getElementById('reset').addEventListener('click', () => {
+    chrome.runtime.sendMessage({ type: 'resetEncoding', tabId: tabs[0].id }, () => {
+      chrome.tabs.reload(tabs[0].id, { bypassCache: true }, () => window.close());
+    });
+  });
+  // Initialize encoding list
+  const list = document.getElementById('list');
+  list.addEventListener('click', e => {
+    if(!(e.target instanceof HTMLButtonElement && e.target.dataset.encoding)) {
+      return;
+    }
+    chrome.runtime.sendMessage({ type: 'setEncoding', tabId: tabs[0].id, encoding: e.target.dataset.encoding }, () => {
+      chrome.tabs.reload(tabs[0].id, { bypassCache: true }, () => window.close());
+    });
+  });
+  for (const encodingInfo of ENCODINGS) {
+    if (encodingInfo.length === 1) {
+      list.appendChild(document.createElement('hr'));
+      continue;
+    }
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.dataset.encoding = encodingInfo[0];
+    button.innerHTML = printEncodingInfo(encodingInfo);
+    list.appendChild(button);
+  }
+});

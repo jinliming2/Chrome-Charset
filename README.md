@@ -20,6 +20,15 @@ A Google Chrome extension used to modify the page default encoding for Google Ch
 [Google Chrome Web Store](https://chrome.google.com/webstore/detail/oenllhgkiiljibhfagbfogdbchhdchml)
 
 ## History
+### v0.5.0()
+1. 【重构】将编码探测脚本改为按需执行
+2. 【重构】网络请求事件改为按需注册，并在扩展程序不需要工作时卸载
+3. 【i18n】新增多个国家语言的翻译，并针对部分 RTL 语种优化页面布局
+4. 【i18n】编码列表针对各个国家语言进行优化，以当前语言选择置顶的编码，编码列表排序以当前语言为准
+5. 【新增】记录并置顶最近使用的三个编码
+6. 【新增】支持设置默认编码，对所有页面生效（GitHub Issue：[#8](https://github.com/jinliming2/Chrome-Charset/issues/8)）
+7. 【新增】配置选项页面
+
 ### v0.4.3(2019/1/5)
 1. 【修复】由于 Chrome 72（也许更早）开始支持 Network Service，导致编码修改失败的问题
 

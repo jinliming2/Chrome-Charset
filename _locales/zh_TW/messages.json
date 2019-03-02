@@ -1,0 +1,66 @@
+{
+  "staticEncodingList": {
+    "message": "Big5",
+    "description": "Locale dependent static encoding list"
+  },
+  "default": {
+    "message": "預設"
+  },
+  "encodingUnicode": {
+    "message": "萬國碼 (Unicode)"
+  },
+  "encodingWestern": {
+    "message": "西歐語系"
+  },
+  "encodingChineseSimplified": {
+    "message": "簡體中文"
+  },
+  "encodingChineseTraditional": {
+    "message": "繁體中文"
+  },
+  "encodingKorean": {
+    "message": "韓文"
+  },
+  "encodingJapanese": {
+    "message": "日文"
+  },
+  "encodingThai": {
+    "message": "泰文"
+  },
+  "encodingCentralEuropean": {
+    "message": "中歐語系"
+  },
+  "encodingCyrillic": {
+    "message": "斯拉夫語"
+  },
+  "encodingGreek": {
+    "message": "希臘文"
+  },
+  "encodingBaltic": {
+    "message": "波羅的海語系"
+  },
+  "encodingSouthEuropean": {
+    "message": "南歐語系"
+  },
+  "encodingNordic": {
+    "message": "北歐語系"
+  },
+  "encodingCeltic": {
+    "message": "塞爾特語"
+  },
+  "encodingRomanian": {
+    "message": "羅馬尼亞文"
+  },
+  "encodingTurkish": {
+    "message": "土耳其文"
+  },
+  "encodingArabic": {
+    "message": "阿拉伯文"
+  },
+  "encodingHebrew": {
+    "message": "希伯來文"
+  },
+  "encodingVietnamese": {
+    "message": "越南文"
+  }
+}

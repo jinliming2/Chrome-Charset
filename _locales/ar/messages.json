@@ -1,0 +1,66 @@
+{
+  "staticEncodingList": {
+    "message": "Windows-1256,ISO-8859-6",
+    "description": "Locale dependent static encoding list"
+  },
+  "default": {
+    "message": "الافتراضي"
+  },
+  "encodingUnicode": {
+    "message": "يونيكود"
+  },
+  "encodingWestern": {
+    "message": "غربيّ"
+  },
+  "encodingChineseSimplified": {
+    "message": "الصينيّة المبسّطة"
+  },
+  "encodingChineseTraditional": {
+    "message": "الصينيّة التقليديّة"
+  },
+  "encodingKorean": {
+    "message": "الكورية"
+  },
+  "encodingJapanese": {
+    "message": "اليابانية"
+  },
+  "encodingThai": {
+    "message": "التايلاندية"
+  },
+  "encodingCentralEuropean": {
+    "message": "وسط أوروبا"
+  },
+  "encodingCyrillic": {
+    "message": "السيريليّة"
+  },
+  "encodingGreek": {
+    "message": "اليونانية"
+  },
+  "encodingBaltic": {
+    "message": "البلطيقيّة"
+  },
+  "encodingSouthEuropean": {
+    "message": "جنوب أوروبا"
+  },
+  "encodingNordic": {
+    "message": "الإسكندنافيّة"
+  },
+  "encodingCeltic": {
+    "message": "السلتيّة"
+  },
+  "encodingRomanian": {
+    "message": "الرومانية"
+  },
+  "encodingTurkish": {
+    "message": "التركية"
+  },
+  "encodingArabic": {
+    "message": "العربية"
+  },
+  "encodingHebrew": {
+    "message": "العبرية"
+  },
+  "encodingVietnamese": {
+    "message": "الفيتنامية"
+  }
+}

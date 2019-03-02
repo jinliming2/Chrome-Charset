@@ -1,0 +1,66 @@
+{
+  "staticEncodingList": {
+    "message": "Windows-1252",
+    "description": "Locale dependent static encoding list"
+  },
+  "default": {
+    "message": "സ്ഥിരസ്ഥിതി"
+  },
+  "encodingUnicode": {
+    "message": "യൂണിക്കോഡ്"
+  },
+  "encodingWestern": {
+    "message": "പാശ്ചാത്യം"
+  },
+  "encodingChineseSimplified": {
+    "message": "ചൈനീസ് ലളിതം"
+  },
+  "encodingChineseTraditional": {
+    "message": "ചൈനീസ് പരമ്പരാഗതം"
+  },
+  "encodingKorean": {
+    "message": "കൊറിയന്‍"
+  },
+  "encodingJapanese": {
+    "message": "ജാപ്പനീസ്"
+  },
+  "encodingThai": {
+    "message": "തായ്"
+  },
+  "encodingCentralEuropean": {
+    "message": "മദ്ധ്യ യുറോപ്യന്‍"
+  },
+  "encodingCyrillic": {
+    "message": "സിറിലിക്"
+  },
+  "encodingGreek": {
+    "message": "ഗ്രീക്ക്"
+  },
+  "encodingBaltic": {
+    "message": "ബാള്‍ട്ടിക്"
+  },
+  "encodingSouthEuropean": {
+    "message": "സൌത്ത് യൂറോപ്യന്‍"
+  },
+  "encodingNordic": {
+    "message": "നോര്‍ഡിക്"
+  },
+  "encodingCeltic": {
+    "message": "കെല്‍റ്റിക്"
+  },
+  "encodingRomanian": {
+    "message": "റുമാനിയന്‍"
+  },
+  "encodingTurkish": {
+    "message": "ടര്‍ക്കിഷ്"
+  },
+  "encodingArabic": {
+    "message": "അറബിക്ക്"
+  },
+  "encodingHebrew": {
+    "message": "ഹീബ്രു"
+  },
+  "encodingVietnamese": {
+    "message": "വിയറ്റ്നാമീസ്"
+  }
+}

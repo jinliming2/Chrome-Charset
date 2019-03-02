@@ -1,0 +1,66 @@
+{
+  "staticEncodingList": {
+    "message": "Windows-1252,ISO-8859-15",
+    "description": "Locale dependent static encoding list"
+  },
+  "default": {
+    "message": "Par défaut"
+  },
+  "encodingUnicode": {
+    "message": "Unicode"
+  },
+  "encodingWestern": {
+    "message": "Occident"
+  },
+  "encodingChineseSimplified": {
+    "message": "Chinois simplifié"
+  },
+  "encodingChineseTraditional": {
+    "message": "Chinois traditionnel"
+  },
+  "encodingKorean": {
+    "message": "Coréen"
+  },
+  "encodingJapanese": {
+    "message": "Japonais"
+  },
+  "encodingThai": {
+    "message": "Thaï"
+  },
+  "encodingCentralEuropean": {
+    "message": "Europe centrale"
+  },
+  "encodingCyrillic": {
+    "message": "Cyrillique"
+  },
+  "encodingGreek": {
+    "message": "Grec"
+  },
+  "encodingBaltic": {
+    "message": "Langues baltes"
+  },
+  "encodingSouthEuropean": {
+    "message": "Europe du Sud"
+  },
+  "encodingNordic": {
+    "message": "Nordique"
+  },
+  "encodingCeltic": {
+    "message": "Celtique"
+  },
+  "encodingRomanian": {
+    "message": "Roumain"
+  },
+  "encodingTurkish": {
+    "message": "Turc"
+  },
+  "encodingArabic": {
+    "message": "Arabe"
+  },
+  "encodingHebrew": {
+    "message": "Hébreu"
+  },
+  "encodingVietnamese": {
+    "message": "Vietnamien"
+  }
+}

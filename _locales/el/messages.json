@@ -1,0 +1,70 @@
+{
+  "staticEncodingList": {
+    "message": "ISO-8859-7,Windows-1253",
+    "description": "Locale dependent static encoding list"
+  },
+  "default": {
+    "message": "Προεπιλογή"
+  },
+  "encodingUnicode": {
+    "message": "Unicode"
+  },
+  "encodingWestern": {
+    "message": "Δυτική"
+  },
+  "encodingChineseSimplified": {
+    "message": "Απλοποιημένα Κινεζικά"
+  },
+  "encodingChineseTraditional": {
+    "message": "Παραδοσιακά Κινεζικά"
+  },
+  "encodingKorean": {
+    "message": "Κορεατικά"
+  },
+  "encodingJapanese": {
+    "message": "Ιαπωνικά
+"
+  },
+  "encodingThai": {
+    "message": "Ταϊλανδικά"
+  },
+  "encodingCentralEuropean": {
+    "message": "Κεντρική Ευρώπη"
+  },
+  "encodingCyrillic": {
+    "message": "Κυριλλικά"
+  },
+  "encodingGreek": {
+    "message": "Ελληνικά"
+  },
+  "encodingBaltic": {
+    "message": "Βαλτική"
+  },
+  "encodingSouthEuropean": {
+    "message": "Νότια Ευρώπη"
+  },
+  "encodingNordic": {
+    "message": "Σκανδιναβική"
+  },
+  "encodingCeltic": {
+    "message": "Κελτικά"
+  },
+  "encodingRomanian": {
+    "message": "Ρουμανικά
+"
+  },
+  "encodingTurkish": {
+    "message": "Τουρκικά
+"
+  },
+  "encodingArabic": {
+    "message": "Αραβικά"
+  },
+  "encodingHebrew": {
+    "message": "Εβραϊκά
+"
+  },
+  "encodingVietnamese": {
+    "message": "Βιετναμέζικα"
+  }
+}

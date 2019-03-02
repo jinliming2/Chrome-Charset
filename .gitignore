@@ -1,5 +1,5 @@
-.idea
 node_modules
 Chrome-Charset.zip
-Gruntfile.js
+pack.js
 package.json
+yarn.lock

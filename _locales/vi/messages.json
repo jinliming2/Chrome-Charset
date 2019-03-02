@@ -1,0 +1,66 @@
+{
+  "staticEncodingList": {
+    "message": "Windows-1258",
+    "description": "Locale dependent static encoding list"
+  },
+  "default": {
+    "message": "Mặc định"
+  },
+  "encodingUnicode": {
+    "message": "Unicode"
+  },
+  "encodingWestern": {
+    "message": "Western"
+  },
+  "encodingChineseSimplified": {
+    "message": "Chinese Simplified"
+  },
+  "encodingChineseTraditional": {
+    "message": "Chinese Traditional"
+  },
+  "encodingKorean": {
+    "message": "Tiếng Hàn"
+  },
+  "encodingJapanese": {
+    "message": "Tiếng Nhật"
+  },
+  "encodingThai": {
+    "message": "Tiếng Thái"
+  },
+  "encodingCentralEuropean": {
+    "message": "Central European"
+  },
+  "encodingCyrillic": {
+    "message": "Cyrillic"
+  },
+  "encodingGreek": {
+    "message": "Tiếng Hy Lạp"
+  },
+  "encodingBaltic": {
+    "message": "Baltic"
+  },
+  "encodingSouthEuropean": {
+    "message": "South European"
+  },
+  "encodingNordic": {
+    "message": "Nordic"
+  },
+  "encodingCeltic": {
+    "message": "Celtic"
+  },
+  "encodingRomanian": {
+    "message": "Tiếng Rumani"
+  },
+  "encodingTurkish": {
+    "message": "Tiếng Thổ Nhĩ Kỳ"
+  },
+  "encodingArabic": {
+    "message": "Tiếng Ả Rập"
+  },
+  "encodingHebrew": {
+    "message": "Tiếng Do Thái"
+  },
+  "encodingVietnamese": {
+    "message": "Tiếng Việt"
+  }
+}

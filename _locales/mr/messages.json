@@ -1,0 +1,66 @@
+{
+  "staticEncodingList": {
+    "message": "Windows-1252",
+    "description": "Locale dependent static encoding list"
+  },
+  "default": {
+    "message": "डीफॉल्ट"
+  },
+  "encodingUnicode": {
+    "message": "युनिकोड"
+  },
+  "encodingWestern": {
+    "message": "पाश्चात्य"
+  },
+  "encodingChineseSimplified": {
+    "message": "चीनी सरलीकृत"
+  },
+  "encodingChineseTraditional": {
+    "message": "चीनी पारंपारिक"
+  },
+  "encodingKorean": {
+    "message": "कोरियन"
+  },
+  "encodingJapanese": {
+    "message": "जपानी"
+  },
+  "encodingThai": {
+    "message": "थाई"
+  },
+  "encodingCentralEuropean": {
+    "message": "मध्य युरोपीय"
+  },
+  "encodingCyrillic": {
+    "message": "सीरिलिक"
+  },
+  "encodingGreek": {
+    "message": "ग्रीक"
+  },
+  "encodingBaltic": {
+    "message": "बाल्टिक"
+  },
+  "encodingSouthEuropean": {
+    "message": "दक्षिण युरोपीय"
+  },
+  "encodingNordic": {
+    "message": "नॉर्डिक"
+  },
+  "encodingCeltic": {
+    "message": "सेल्टिक"
+  },
+  "encodingRomanian": {
+    "message": "रोमानियन"
+  },
+  "encodingTurkish": {
+    "message": "तुर्की"
+  },
+  "encodingArabic": {
+    "message": "अरबी"
+  },
+  "encodingHebrew": {
+    "message": "हिब्रू"
+  },
+  "encodingVietnamese": {
+    "message": "व्हिएतनामी"
+  }
+}

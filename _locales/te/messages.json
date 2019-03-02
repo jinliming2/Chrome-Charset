@@ -1,0 +1,66 @@
+{
+  "staticEncodingList": {
+    "message": "Windows-1252",
+    "description": "Locale dependent static encoding list"
+  },
+  "default": {
+    "message": "డిఫాల్ట్"
+  },
+  "encodingUnicode": {
+    "message": "యునీకోడ్"
+  },
+  "encodingWestern": {
+    "message": "పాశ్చాత్య"
+  },
+  "encodingChineseSimplified": {
+    "message": "సరళీకృత చైనీస్"
+  },
+  "encodingChineseTraditional": {
+    "message": "సంప్రదాయ చైనీస్"
+  },
+  "encodingKorean": {
+    "message": "కొరియన్"
+  },
+  "encodingJapanese": {
+    "message": "జపనీస్"
+  },
+  "encodingThai": {
+    "message": "థాయ్"
+  },
+  "encodingCentralEuropean": {
+    "message": "మధ్య యూరోపియన్"
+  },
+  "encodingCyrillic": {
+    "message": "సిరిలిక్"
+  },
+  "encodingGreek": {
+    "message": "గ్రీక్"
+  },
+  "encodingBaltic": {
+    "message": "బాల్టిక్"
+  },
+  "encodingSouthEuropean": {
+    "message": "దక్షిణ యూరోపియన్"
+  },
+  "encodingNordic": {
+    "message": "నోర్డిక్"
+  },
+  "encodingCeltic": {
+    "message": "సెల్టిక్"
+  },
+  "encodingRomanian": {
+    "message": "రొమేనియన్"
+  },
+  "encodingTurkish": {
+    "message": "టర్కిష్"
+  },
+  "encodingArabic": {
+    "message": "అరబిక్"
+  },
+  "encodingHebrew": {
+    "message": "హిబ్రూ"
+  },
+  "encodingVietnamese": {
+    "message": "వియత్నామీస్"
+  }
+}

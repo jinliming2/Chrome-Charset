@@ -1,0 +1,66 @@
+{
+  "staticEncodingList": {
+    "message": "Windows-1252",
+    "description": "Locale dependent static encoding list"
+  },
+  "default": {
+    "message": "Default"
+  },
+  "encodingUnicode": {
+    "message": "Unicode"
+  },
+  "encodingWestern": {
+    "message": "Barat"
+  },
+  "encodingChineseSimplified": {
+    "message": "Cina Modern"
+  },
+  "encodingChineseTraditional": {
+    "message": "Cina Tradisional"
+  },
+  "encodingKorean": {
+    "message": "Korea"
+  },
+  "encodingJapanese": {
+    "message": "Jepang"
+  },
+  "encodingThai": {
+    "message": "Thai"
+  },
+  "encodingCentralEuropean": {
+    "message": "Eropa Tengah"
+  },
+  "encodingCyrillic": {
+    "message": "Cyrillic"
+  },
+  "encodingGreek": {
+    "message": "Yunani"
+  },
+  "encodingBaltic": {
+    "message": "Baltik"
+  },
+  "encodingSouthEuropean": {
+    "message": "Eropa Selatan"
+  },
+  "encodingNordic": {
+    "message": "Nordik"
+  },
+  "encodingCeltic": {
+    "message": "Celtik"
+  },
+  "encodingRomanian": {
+    "message": "Rumania"
+  },
+  "encodingTurkish": {
+    "message": "Turki"
+  },
+  "encodingArabic": {
+    "message": "Arab"
+  },
+  "encodingHebrew": {
+    "message": "Ibrani"
+  },
+  "encodingVietnamese": {
+    "message": "Vietnam"
+  }
+}

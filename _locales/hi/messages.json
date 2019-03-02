@@ -1,0 +1,66 @@
+{
+  "staticEncodingList": {
+    "message": "Windows-1252",
+    "description": "Locale dependent static encoding list"
+  },
+  "default": {
+    "message": "सामान्य"
+  },
+  "encodingUnicode": {
+    "message": "यूनिकोड"
+  },
+  "encodingWestern": {
+    "message": "Western"
+  },
+  "encodingChineseSimplified": {
+    "message": "चीनी सरलीकृत"
+  },
+  "encodingChineseTraditional": {
+    "message": "परम्परागत चीनी"
+  },
+  "encodingKorean": {
+    "message": "कोरियाई"
+  },
+  "encodingJapanese": {
+    "message": "जापानी"
+  },
+  "encodingThai": {
+    "message": "थाई"
+  },
+  "encodingCentralEuropean": {
+    "message": "मध्य यूरोपीय"
+  },
+  "encodingCyrillic": {
+    "message": "सिरिलिक"
+  },
+  "encodingGreek": {
+    "message": "ग्रीक"
+  },
+  "encodingBaltic": {
+    "message": "Baltic"
+  },
+  "encodingSouthEuropean": {
+    "message": "दक्षिण यूरोपीय"
+  },
+  "encodingNordic": {
+    "message": "नोर्डिक"
+  },
+  "encodingCeltic": {
+    "message": "सेल्टिक"
+  },
+  "encodingRomanian": {
+    "message": "रोमानियाई"
+  },
+  "encodingTurkish": {
+    "message": "तुर्की"
+  },
+  "encodingArabic": {
+    "message": "अरबी"
+  },
+  "encodingHebrew": {
+    "message": "हिब्रू"
+  },
+  "encodingVietnamese": {
+    "message": "वियतनामी"
+  }
+}

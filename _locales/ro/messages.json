@@ -1,0 +1,66 @@
+{
+  "staticEncodingList": {
+    "message": "ISO-8859-2,Windows-1250",
+    "description": "Locale dependent static encoding list"
+  },
+  "default": {
+    "message": "Prestabilit"
+  },
+  "encodingUnicode": {
+    "message": "Unicode"
+  },
+  "encodingWestern": {
+    "message": "Vestic"
+  },
+  "encodingChineseSimplified": {
+    "message": "Chineză simplificată"
+  },
+  "encodingChineseTraditional": {
+    "message": "Chineză tradițională"
+  },
+  "encodingKorean": {
+    "message": "Coreeană"
+  },
+  "encodingJapanese": {
+    "message": "Japoneză"
+  },
+  "encodingThai": {
+    "message": "Thailandeză"
+  },
+  "encodingCentralEuropean": {
+    "message": "Europa Centrală"
+  },
+  "encodingCyrillic": {
+    "message": "Chirilic"
+  },
+  "encodingGreek": {
+    "message": "Greacă"
+  },
+  "encodingBaltic": {
+    "message": "Baltic"
+  },
+  "encodingSouthEuropean": {
+    "message": "Europa de Sud"
+  },
+  "encodingNordic": {
+    "message": "Nordică"
+  },
+  "encodingCeltic": {
+    "message": "Celtă"
+  },
+  "encodingRomanian": {
+    "message": "Română"
+  },
+  "encodingTurkish": {
+    "message": "Turcă"
+  },
+  "encodingArabic": {
+    "message": "Arabă"
+  },
+  "encodingHebrew": {
+    "message": "Ebraică"
+  },
+  "encodingVietnamese": {
+    "message": "Vietnameză"
+  }
+}
