@@ -4,7 +4,7 @@
 const rtl = chrome.i18n.getMessage('@@bidi_dir') === 'rtl' ? '\u{200f}' : '';
 const printEncodingInfo = info => `${info[1]} ${rtl}(${info[0]})`;
 
-let selectedMenu = 'default';
+let selectedMenu;
 
 const menuClicked = (info, tab) => {
   if (info.wasChecked) {
@@ -25,6 +25,7 @@ const updateMenu = tabId => {
   }
   chrome.contextMenus.update(selectedMenu, { checked: false });
   chrome.contextMenus.update(encoding, { checked: true });
+  selectedMenu = encoding;
 };
 
 const tabUpdatedEvent = tabId => updateMenu(tabId);
@@ -46,6 +47,7 @@ const createMenu = () => {
     checked: true,
     onclick: menuClicked,
   });
+  selectedMenu = 'default';
   for (const encoding of ENCODINGS) {
     if (encoding.length === 1) {
       continue;
