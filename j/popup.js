@@ -17,22 +17,19 @@ chrome.tabs.query({ active: true, currentWindow: true }, async tabs => {
   // Detect current encoding
   const currentDOM = document.getElementById('current');
   currentDOM.innerHTML = '......';
-  let currentEncoding;
   const fileEncoding = tabs[0].url.startsWith('file://') &&
     await new Promise(resolve => chrome.runtime.sendMessage({ type: 'getEncoding', tabId: tabs[0].id }, resolve));
   if (fileEncoding) {
     const encodingInfo = ENCODINGS.find(e => e[0].toUpperCase() === fileEncoding.toUpperCase());
     currentDOM.innerHTML = encodingInfo ? printEncodingInfo(encodingInfo) : chrome.i18n.getMessage('unknown');
-    currentEncoding = encodingInfo;
   } else {
-    chrome.tabs.executeScript(tabs[0].id, { code: 'document.charset' }, (results) => {
+    chrome.tabs.executeScript(tabs[0].id, { code: 'document.charset' }, results => {
       if (!results || !results[0]) {
         currentDOM.innerHTML = chrome.i18n.getMessage('unknown');
         return chrome.runtime.lastError;
       }
       const encodingInfo = ENCODINGS.find(e => e[0].toUpperCase() === String(results[0]).toUpperCase());
       currentDOM.innerHTML = printEncodingInfo(encodingInfo || [results[0], chrome.i18n.getMessage('unknown')]);
-      currentEncoding = encodingInfo;
     });
   }
   // I18n
@@ -40,7 +37,7 @@ chrome.tabs.query({ active: true, currentWindow: true }, async tabs => {
   document.getElementById('tip-current').innerHTML = chrome.i18n.getMessage('tipCurrent');
   // Setted default encoding
   const defaultEncoding = localStorage.getItem('config_enable_default');
-  if (defaultEncoding && (!currentEncoding || defaultEncoding.toUpperCase() !== currentEncoding.toUpperCase())) {
+  if (defaultEncoding) {
     const encodingInfo = ENCODINGS.find(e => e[0].toUpperCase() === defaultEncoding.toUpperCase());
     const defaultTip = document.getElementById('default-tip');
     defaultTip.innerHTML = chrome.i18n.getMessage('defaultEncodingEnabled', [printEncodingInfo(encodingInfo)]);
