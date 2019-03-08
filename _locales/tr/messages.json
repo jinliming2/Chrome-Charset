@@ -1,7 +1,9 @@
 {
   "staticEncodingList": {
-    "message": "Windows-1254",
-    "description": "Locale dependent static encoding list"
+    "message": "Windows-1254"
+  },
+  "tipCurrent": {
+    "message": "Geçerli sayfa"
   },
   "default": {
     "message": "Varsayılan"

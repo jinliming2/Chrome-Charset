@@ -1,7 +1,9 @@
 {
   "staticEncodingList": {
-    "message": "Windows-874",
-    "description": "Locale dependent static encoding list"
+    "message": "Windows-874"
+  },
+  "tipCurrent": {
+    "message": "หน้าปัจจุบัน"
   },
   "default": {
     "message": "ค่าเริ่มต้น"

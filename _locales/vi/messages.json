@@ -1,7 +1,9 @@
 {
   "staticEncodingList": {
-    "message": "Windows-1258",
-    "description": "Locale dependent static encoding list"
+    "message": "Windows-1258"
+  },
+  "tipCurrent": {
+    "message": "Trang hiện tại"
   },
   "default": {
     "message": "Mặc định"

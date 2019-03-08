@@ -1,19 +1,39 @@
 {
-  "appName": {
-    "message": "Charset",
-    "description": "Extension: Name"
-  },
-  "appShortName": {
-    "message": "Charset",
-    "description": "Extension: Short Name"
-  },
   "appDescription": {
-    "message": "修改网站的默认编码",
-    "description": "Extension: Short Name"
+    "message": "修改网站的默认编码"
   },
   "staticEncodingList": {
-    "message": "GBK,GB18030",
-    "description": "Locale dependent static encoding list"
+    "message": "GBK,GB18030"
+  },
+  "cannotLoadLocalFile": {
+    "message": "Charset 扩展程序无法读取file://协议文件！\n请在扩展设置页面勾选“允许访问文件网址”选项！"
+  },
+  "unknown": {
+    "message": "未知"
+  },
+  "btnReset": {
+    "message": "重置"
+  },
+  "tipCurrent": {
+    "message": "当前页面"
+  },
+  "defaultEncodingEnabled": {
+    "message": "默认编码: $1"
+  },
+  "tipDisableDefaultEncoding": {
+    "message": "您可以在选项页面选择默认编码"
+  },
+  "optionMenu": {
+    "message": "显示菜单"
+  },
+  "optionDefaultEncoding": {
+    "message": "默认编码"
+  },
+  "optionRecommendEncoding": {
+    "message": "推荐"
+  },
+  "optionOtherEncoding": {
+    "message": "其他"
   },
   "default": {
     "message": "默认"

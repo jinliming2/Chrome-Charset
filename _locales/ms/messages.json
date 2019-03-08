@@ -1,7 +1,9 @@
 {
   "staticEncodingList": {
-    "message": "",
-    "description": "Locale dependent static encoding list"
+    "message": ""
+  },
+  "tipCurrent": {
+    "message": "Muka surat ini"
   },
   "default": {
     "message": "Lalai"

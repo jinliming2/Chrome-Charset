@@ -1,7 +1,9 @@
 {
   "staticEncodingList": {
-    "message": "Windows-1257,ISO-8859-4,ISO-8859-13",
-    "description": "Locale dependent static encoding list"
+    "message": "Windows-1257,ISO-8859-4,ISO-8859-13"
+  },
+  "tipCurrent": {
+    "message": "Käesolev lehekülg"
   },
   "default": {
     "message": "Vaikimisi"

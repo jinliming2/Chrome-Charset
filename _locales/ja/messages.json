@@ -1,7 +1,9 @@
 {
   "staticEncodingList": {
-    "message": "Shift_JIS,EUC-JP,ISO-2022-JP",
-    "description": "Locale dependent static encoding list"
+    "message": "Shift_JIS,EUC-JP,ISO-2022-JP"
+  },
+  "tipCurrent": {
+    "message": "現在のページ"
   },
   "default": {
     "message": "既定"

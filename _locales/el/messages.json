@@ -1,7 +1,9 @@
 {
   "staticEncodingList": {
-    "message": "ISO-8859-7,Windows-1253",
-    "description": "Locale dependent static encoding list"
+    "message": "ISO-8859-7,Windows-1253"
+  },
+  "tipCurrent": {
+    "message": "Τρέχουσα σελίδα"
   },
   "default": {
     "message": "Προεπιλογή"
@@ -22,8 +24,7 @@
     "message": "Κορεατικά"
   },
   "encodingJapanese": {
-    "message": "Ιαπωνικά
-"
+    "message": "Ιαπωνικά"
   },
   "encodingThai": {
     "message": "Ταϊλανδικά"
@@ -50,19 +51,16 @@
     "message": "Κελτικά"
   },
   "encodingRomanian": {
-    "message": "Ρουμανικά
-"
+    "message": "Ρουμανικά"
   },
   "encodingTurkish": {
-    "message": "Τουρκικά
-"
+    "message": "Τουρκικά"
   },
   "encodingArabic": {
     "message": "Αραβικά"
   },
   "encodingHebrew": {
-    "message": "Εβραϊκά
-"
+    "message": "Εβραϊκά"
   },
   "encodingVietnamese": {
     "message": "Βιετναμέζικα"

@@ -1,7 +1,9 @@
 {
   "staticEncodingList": {
-    "message": "",
-    "description": "Locale dependent static encoding list"
+    "message": ""
+  },
+  "tipCurrent": {
+    "message": "현재 페이지"
   },
   "default": {
     "message": "기본값"

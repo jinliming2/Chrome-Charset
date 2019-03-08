@@ -1,7 +1,9 @@
 {
   "staticEncodingList": {
-    "message": "Windows-1256,ISO-8859-6",
-    "description": "Locale dependent static encoding list"
+    "message": "Windows-1256,ISO-8859-6"
+  },
+  "tipCurrent": {
+    "message": "الصفحه الحاليه"
   },
   "default": {
     "message": "الافتراضي"

@@ -1,7 +1,9 @@
 {
   "staticEncodingList": {
-    "message": "Windows-1252,ISO-8859-15",
-    "description": "Locale dependent static encoding list"
+    "message": "Windows-1252,ISO-8859-15"
+  },
+  "tipCurrent": {
+    "message": "Page actuelle"
   },
   "default": {
     "message": "Par défaut"

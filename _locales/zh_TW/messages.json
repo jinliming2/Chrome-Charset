@@ -1,7 +1,39 @@
 {
+  "appDescription": {
+    "message": "修改網站的默認編碼"
+  },
   "staticEncodingList": {
-    "message": "Big5",
-    "description": "Locale dependent static encoding list"
+    "message": "Big5"
+  },
+  "cannotLoadLocalFile": {
+    "message": "Charset 擴展程序無法讀取file://協議文件！ \n請在擴展設置頁面勾選“允許訪問文件網址”選項！"
+  },
+  "unknown": {
+    "message": "未知"
+  },
+  "btnReset": {
+    "message": "重置"
+  },
+  "tipCurrent": {
+    "message": "當前頁面"
+  },
+  "defaultEncodingEnabled": {
+    "message": "默認編碼: $1"
+  },
+  "tipDisableDefaultEncoding": {
+    "message": "您可以在選項頁面選擇默認編碼"
+  },
+  "optionMenu": {
+    "message": "顯示菜單"
+  },
+  "optionDefaultEncoding": {
+    "message": "默認編碼"
+  },
+  "optionRecommendEncoding": {
+    "message": "推薦"
+  },
+  "optionOtherEncoding": {
+    "message": "其他"
   },
   "default": {
     "message": "預設"

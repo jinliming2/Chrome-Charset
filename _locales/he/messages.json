@@ -1,7 +1,9 @@
 {
   "staticEncodingList": {
-    "message": "Windows-1255,ISO-8859-8-I,ISO-8859-8",
-    "description": "Locale dependent static encoding list"
+    "message": "Windows-1255,ISO-8859-8-I,ISO-8859-8"
+  },
+  "tipCurrent": {
+    "message": "העמוד הנוכחי"
   },
   "default": {
     "message": "ברירת מחדל"

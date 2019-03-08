@@ -16,11 +16,10 @@
     "description": "Locale dependent static encoding list"
   },
   "cannotLoadLocalFile": {
-    "message": "Charset extension cannot load file:// protocol files!\nPlease check the \"Allow access to file URLs\" option in Chrome menu > More tools > Extensions."
+    "message": "Charset extension cannot load file:// protocol files!\nPlease check the \"Allow access to file URLs\" option in Chrome menu > More tools > Extensions > Charset."
   },
   "unknown": {
-    "message": "Unknown",
-    "description": "Don't know what encoding that current page use"
+    "message": "Unknown"
   },
   "btnReset": {
     "message": "Reset"
@@ -32,7 +31,7 @@
     "message": "Default Encoding: $1"
   },
   "tipDisableDefaultEncoding": {
-    "message": "You can disable this in the Options page."
+    "message": "You can disable this on the Options page"
   },
   "optionMenu": {
     "message": "Context Menu"

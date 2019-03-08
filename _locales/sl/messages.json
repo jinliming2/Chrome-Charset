@@ -1,7 +1,9 @@
 {
   "staticEncodingList": {
-    "message": "ISO-8859-2,Windows-1250",
-    "description": "Locale dependent static encoding list"
+    "message": "ISO-8859-2,Windows-1250"
+  },
+  "tipCurrent": {
+    "message": "Trenutna stran"
   },
   "default": {
     "message": "Privzeto"
