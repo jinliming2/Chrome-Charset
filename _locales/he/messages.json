@@ -1,0 +1,68 @@
+{
+  "staticEncodingList": {
+    "message": "Windows-1255,ISO-8859-8-I,ISO-8859-8"
+  },
+  "tipCurrent": {
+    "message": "העמוד הנוכחי"
+  },
+  "default": {
+    "message": "ברירת מחדל"
+  },
+  "encodingUnicode": {
+    "message": "Unicode"
+  },
+  "encodingWestern": {
+    "message": "מערב אירופאית"
+  },
+  "encodingChineseSimplified": {
+    "message": "סינית פשוטה"
+  },
+  "encodingChineseTraditional": {
+    "message": "סינית מסורתית"
+  },
+  "encodingKorean": {
+    "message": "קוריאנית"
+  },
+  "encodingJapanese": {
+    "message": "יפנית"
+  },
+  "encodingThai": {
+    "message": "תאי"
+  },
+  "encodingCentralEuropean": {
+    "message": "מרכז אירופאית"
+  },
+  "encodingCyrillic": {
+    "message": "קירילית"
+  },
+  "encodingGreek": {
+    "message": "יוונית"
+  },
+  "encodingBaltic": {
+    "message": "בלטית"
+  },
+  "encodingSouthEuropean": {
+    "message": "דרום אירופאית"
+  },
+  "encodingNordic": {
+    "message": "נורדית"
+  },
+  "encodingCeltic": {
+    "message": "קלטית"
+  },
+  "encodingRomanian": {
+    "message": "רומנית"
+  },
+  "encodingTurkish": {
+    "message": "טורקית"
+  },
+  "encodingArabic": {
+    "message": "ערבית"
+  },
+  "encodingHebrew": {
+    "message": "עברית"
+  },
+  "encodingVietnamese": {
+    "message": "וייטנמית"
+  }
+}

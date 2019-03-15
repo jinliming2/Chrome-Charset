@@ -1,83 +1,108 @@
 {
-    "appName": {
-        "message": "Charset",
-        "description": "Extension: Name"
-    },
-    "appShortName": {
-        "message": "Charset",
-        "description": "Extension: Short Name"
-    },
-    "appDescription": {
-        "message": "Modify the default encoding for the website",
-        "description": "Extension: Short Name"
-    },
-    "cannotLoadLocalFile": {
-        "message": "Charset extension cannot load file:// protocol files!\nPlease check the \"Allow access to file URLs\" option in Chrome menu > More tools > Extensions."
-    },
-    "btnReset": {
-        "message": "Reset",
-        "description": "Reset default charset"
-    },
-    "tipCurrent": {
-        "message": "Current: ",
-        "description": "The encoding used for the current page"
-    },
-    "settingMenu": {
-        "message": "ContextMenu: ",
-        "description": "Show Menu or Not"
-    },
-    "default": {
-        "message": "Default"
-    },
-    "Chinese": {
-        "message": "Chinese"
-    },
-    "Arabic": {
-        "message": "Arabic"
-    },
-    "Baltic": {
-        "message": "Baltic"
-    },
-    "Celtic": {
-        "message": "Celtic"
-    },
-    "CentralEuropean": {
-        "message": "Central European"
-    },
-    "Cyrillic": {
-        "message": "Cyrillic"
-    },
-    "Greek": {
-        "message": "Greek"
-    },
-    "Hebrew": {
-        "message": "Hebrew"
-    },
-    "Japanese": {
-        "message": "Japanese"
-    },
-    "Korean": {
-        "message": "Korean"
-    },
-    "Nordic": {
-        "message": "Nordic"
-    },
-    "Romanian": {
-        "message": "Romanian"
-    },
-    "SouthEuropean": {
-        "message": "South European"
-    },
-    "Thai": {
-        "message": "Thai"
-    },
-    "Turkish": {
-        "message": "Turkish"
-    },
-    "Vietnamese": {
-        "message": "Vietnamese"
-    },
-    "Western": {
-        "message": "Western"
-    }
+  "appName": {
+    "message": "Charset",
+    "description": "Extension: Name"
+  },
+  "appShortName": {
+    "message": "Charset",
+    "description": "Extension: Short Name"
+  },
+  "appDescription": {
+    "message": "Modify the default encoding for the website",
+    "description": "Extension: Description"
+  },
+  "staticEncodingList": {
+    "message": "Windows-1252",
+    "description": "Locale dependent static encoding list"
+  },
+  "cannotLoadLocalFile": {
+    "message": "Charset extension cannot load file:// protocol files!\nPlease check the \"Allow access to file URLs\" option in Chrome menu > More tools > Extensions > Charset."
+  },
+  "unknown": {
+    "message": "Unknown"
+  },
+  "btnReset": {
+    "message": "Reset"
+  },
+  "tipCurrent": {
+    "message": "Current Page"
+  },
+  "defaultEncodingEnabled": {
+    "message": "Default Encoding: $1"
+  },
+  "tipDisableDefaultEncoding": {
+    "message": "You can disable this on the Options page"
+  },
+  "optionMenu": {
+    "message": "Context Menu"
+  },
+  "optionDefaultEncoding": {
+    "message": "Default Encoding"
+  },
+  "optionRecommendEncoding": {
+    "message": "Recommend"
+  },
+  "optionOtherEncoding": {
+    "message": "Others"
+  },
+  "default": {
+    "message": "Default"
+  },
+  "encodingUnicode": {
+    "message": "Unicode"
+  },
+  "encodingWestern": {
+    "message": "Western"
+  },
+  "encodingChineseSimplified": {
+    "message": "Chinese Simplified"
+  },
+  "encodingChineseTraditional": {
+    "message": "Chinese Traditional"
+  },
+  "encodingKorean": {
+    "message": "Korean"
+  },
+  "encodingJapanese": {
+    "message": "Japanese"
+  },
+  "encodingThai": {
+    "message": "Thai"
+  },
+  "encodingCentralEuropean": {
+    "message": "Central European"
+  },
+  "encodingCyrillic": {
+    "message": "Cyrillic"
+  },
+  "encodingGreek": {
+    "message": "Greek"
+  },
+  "encodingBaltic": {
+    "message": "Baltic"
+  },
+  "encodingSouthEuropean": {
+    "message": "South European"
+  },
+  "encodingNordic": {
+    "message": "Nordic"
+  },
+  "encodingCeltic": {
+    "message": "Celtic"
+  },
+  "encodingRomanian": {
+    "message": "Romanian"
+  },
+  "encodingTurkish": {
+    "message": "Turkish"
+  },
+  "encodingArabic": {
+    "message": "Arabic"
+  },
+  "encodingHebrew": {
+    "message": "Hebrew"
+  },
+  "encodingVietnamese": {
+    "message": "Vietnamese"
+  }
 }

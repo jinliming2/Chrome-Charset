@@ -1,0 +1,68 @@
+{
+  "staticEncodingList": {
+    "message": ""
+  },
+  "tipCurrent": {
+    "message": "현재 페이지"
+  },
+  "default": {
+    "message": "기본값"
+  },
+  "encodingUnicode": {
+    "message": "유니코드"
+  },
+  "encodingWestern": {
+    "message": "서유럽어"
+  },
+  "encodingChineseSimplified": {
+    "message": "중국어 간체"
+  },
+  "encodingChineseTraditional": {
+    "message": "중국어 번체"
+  },
+  "encodingKorean": {
+    "message": "한국어"
+  },
+  "encodingJapanese": {
+    "message": "일본어"
+  },
+  "encodingThai": {
+    "message": "태국어"
+  },
+  "encodingCentralEuropean": {
+    "message": "중부 유럽어"
+  },
+  "encodingCyrillic": {
+    "message": "키릴 문자"
+  },
+  "encodingGreek": {
+    "message": "그리스어"
+  },
+  "encodingBaltic": {
+    "message": "발트어"
+  },
+  "encodingSouthEuropean": {
+    "message": "남유럽어"
+  },
+  "encodingNordic": {
+    "message": "북유럽어"
+  },
+  "encodingCeltic": {
+    "message": "켈트어"
+  },
+  "encodingRomanian": {
+    "message": "루마니아어"
+  },
+  "encodingTurkish": {
+    "message": "터키어"
+  },
+  "encodingArabic": {
+    "message": "아라비아어"
+  },
+  "encodingHebrew": {
+    "message": "히브리어"
+  },
+  "encodingVietnamese": {
+    "message": "베트남어"
+  }
+}

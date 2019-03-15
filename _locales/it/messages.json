@@ -1,0 +1,68 @@
+{
+  "staticEncodingList": {
+    "message": "Windows-1252"
+  },
+  "tipCurrent": {
+    "message": "Pagina corrente"
+  },
+  "default": {
+    "message": "Predefinito"
+  },
+  "encodingUnicode": {
+    "message": "Unicode"
+  },
+  "encodingWestern": {
+    "message": "Europa occidentale"
+  },
+  "encodingChineseSimplified": {
+    "message": "Cinese semplificato"
+  },
+  "encodingChineseTraditional": {
+    "message": "Cinese tradizionale"
+  },
+  "encodingKorean": {
+    "message": "Coreano"
+  },
+  "encodingJapanese": {
+    "message": "Giapponese"
+  },
+  "encodingThai": {
+    "message": "Tailandese"
+  },
+  "encodingCentralEuropean": {
+    "message": "Europa centrale"
+  },
+  "encodingCyrillic": {
+    "message": "Cirillico"
+  },
+  "encodingGreek": {
+    "message": "Greco"
+  },
+  "encodingBaltic": {
+    "message": "Baltico"
+  },
+  "encodingSouthEuropean": {
+    "message": "Europa meridionale"
+  },
+  "encodingNordic": {
+    "message": "Nordico"
+  },
+  "encodingCeltic": {
+    "message": "Celtico"
+  },
+  "encodingRomanian": {
+    "message": "Rumeno"
+  },
+  "encodingTurkish": {
+    "message": "Turco"
+  },
+  "encodingArabic": {
+    "message": "Arabo"
+  },
+  "encodingHebrew": {
+    "message": "Ebraico"
+  },
+  "encodingVietnamese": {
+    "message": "Vietnamita"
+  }
+}

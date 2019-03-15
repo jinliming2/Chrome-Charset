@@ -1,0 +1,68 @@
+{
+  "staticEncodingList": {
+    "message": "Windows-1252"
+  },
+  "tipCurrent": {
+    "message": "Aktuelle Seite"
+  },
+  "default": {
+    "message": "Standardeinstellung"
+  },
+  "encodingUnicode": {
+    "message": "Unicode"
+  },
+  "encodingWestern": {
+    "message": "Westeuropäisch"
+  },
+  "encodingChineseSimplified": {
+    "message": "Chinesisch (vereinfacht)"
+  },
+  "encodingChineseTraditional": {
+    "message": "Chinesisch (traditionell)"
+  },
+  "encodingKorean": {
+    "message": "Koreanisch"
+  },
+  "encodingJapanese": {
+    "message": "Japanisch"
+  },
+  "encodingThai": {
+    "message": "Thailändisch"
+  },
+  "encodingCentralEuropean": {
+    "message": "Mitteleuropäisch"
+  },
+  "encodingCyrillic": {
+    "message": "Kyrillisch"
+  },
+  "encodingGreek": {
+    "message": "Griechisch"
+  },
+  "encodingBaltic": {
+    "message": "Baltisch"
+  },
+  "encodingSouthEuropean": {
+    "message": "Südeuropäisch"
+  },
+  "encodingNordic": {
+    "message": "Nordisch"
+  },
+  "encodingCeltic": {
+    "message": "Keltisch"
+  },
+  "encodingRomanian": {
+    "message": "Rumänisch"
+  },
+  "encodingTurkish": {
+    "message": "Türkisch"
+  },
+  "encodingArabic": {
+    "message": "Arabisch"
+  },
+  "encodingHebrew": {
+    "message": "Hebräisch"
+  },
+  "encodingVietnamese": {
+    "message": "Vietnamesisch"
+  }
+}

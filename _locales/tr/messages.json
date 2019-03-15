@@ -1,0 +1,68 @@
+{
+  "staticEncodingList": {
+    "message": "Windows-1254"
+  },
+  "tipCurrent": {
+    "message": "Geçerli sayfa"
+  },
+  "default": {
+    "message": "Varsayılan"
+  },
+  "encodingUnicode": {
+    "message": "Unicode"
+  },
+  "encodingWestern": {
+    "message": "Batı"
+  },
+  "encodingChineseSimplified": {
+    "message": "Basitleştirilmiş Çince"
+  },
+  "encodingChineseTraditional": {
+    "message": "Çince Geleneksel"
+  },
+  "encodingKorean": {
+    "message": "Korece"
+  },
+  "encodingJapanese": {
+    "message": "Japonca"
+  },
+  "encodingThai": {
+    "message": "Tay dili"
+  },
+  "encodingCentralEuropean": {
+    "message": "Orta Avrupa"
+  },
+  "encodingCyrillic": {
+    "message": "Kiril"
+  },
+  "encodingGreek": {
+    "message": "Yunanca"
+  },
+  "encodingBaltic": {
+    "message": "Baltık"
+  },
+  "encodingSouthEuropean": {
+    "message": "Güney Avrupa"
+  },
+  "encodingNordic": {
+    "message": "İskandinav"
+  },
+  "encodingCeltic": {
+    "message": "Keltik"
+  },
+  "encodingRomanian": {
+    "message": "Rumence"
+  },
+  "encodingTurkish": {
+    "message": "Türkçe"
+  },
+  "encodingArabic": {
+    "message": "Arapça"
+  },
+  "encodingHebrew": {
+    "message": "İbranice"
+  },
+  "encodingVietnamese": {
+    "message": "Vietnam dili"
+  }
+}

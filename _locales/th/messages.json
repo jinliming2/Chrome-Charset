@@ -1,0 +1,68 @@
+{
+  "staticEncodingList": {
+    "message": "Windows-874"
+  },
+  "tipCurrent": {
+    "message": "หน้าปัจจุบัน"
+  },
+  "default": {
+    "message": "ค่าเริ่มต้น"
+  },
+  "encodingUnicode": {
+    "message": "Unicode"
+  },
+  "encodingWestern": {
+    "message": "ยุโรป"
+  },
+  "encodingChineseSimplified": {
+    "message": "จีน (ตัวย่อ)"
+  },
+  "encodingChineseTraditional": {
+    "message": "จีน (ตัวเต็ม)"
+  },
+  "encodingKorean": {
+    "message": "เกาหลี"
+  },
+  "encodingJapanese": {
+    "message": "ญี่ปุ่น"
+  },
+  "encodingThai": {
+    "message": "ไทย"
+  },
+  "encodingCentralEuropean": {
+    "message": "ยุโรปตอนกลาง"
+  },
+  "encodingCyrillic": {
+    "message": "ซีริลลิก"
+  },
+  "encodingGreek": {
+    "message": "กรีก"
+  },
+  "encodingBaltic": {
+    "message": "บอลติก"
+  },
+  "encodingSouthEuropean": {
+    "message": "ยุโรปตอนใต้"
+  },
+  "encodingNordic": {
+    "message": "นอร์ดิก"
+  },
+  "encodingCeltic": {
+    "message": "เซลติก"
+  },
+  "encodingRomanian": {
+    "message": "โรมาเนีย"
+  },
+  "encodingTurkish": {
+    "message": "ตุรกี"
+  },
+  "encodingArabic": {
+    "message": "อาหรับ"
+  },
+  "encodingHebrew": {
+    "message": "ฮิบรู"
+  },
+  "encodingVietnamese": {
+    "message": "เวียดนาม"
+  }
+}

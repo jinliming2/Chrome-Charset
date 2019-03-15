@@ -1,0 +1,68 @@
+{
+  "staticEncodingList": {
+    "message": "Shift_JIS,EUC-JP,ISO-2022-JP"
+  },
+  "tipCurrent": {
+    "message": "現在のページ"
+  },
+  "default": {
+    "message": "既定"
+  },
+  "encodingUnicode": {
+    "message": "Unicode"
+  },
+  "encodingWestern": {
+    "message": "西欧"
+  },
+  "encodingChineseSimplified": {
+    "message": "簡体中国語"
+  },
+  "encodingChineseTraditional": {
+    "message": "繁体中国語"
+  },
+  "encodingKorean": {
+    "message": "韓国語"
+  },
+  "encodingJapanese": {
+    "message": "日本語"
+  },
+  "encodingThai": {
+    "message": "タイ語"
+  },
+  "encodingCentralEuropean": {
+    "message": "中欧"
+  },
+  "encodingCyrillic": {
+    "message": "キリル文字"
+  },
+  "encodingGreek": {
+    "message": "ギリシャ語"
+  },
+  "encodingBaltic": {
+    "message": "バルト語"
+  },
+  "encodingSouthEuropean": {
+    "message": "南欧"
+  },
+  "encodingNordic": {
+    "message": "北欧"
+  },
+  "encodingCeltic": {
+    "message": "ケルト語"
+  },
+  "encodingRomanian": {
+    "message": "ルーマニア語"
+  },
+  "encodingTurkish": {
+    "message": "トルコ語"
+  },
+  "encodingArabic": {
+    "message": "アラビア語"
+  },
+  "encodingHebrew": {
+    "message": "ヘブライ語"
+  },
+  "encodingVietnamese": {
+    "message": "ベトナム語"
+  }
+}

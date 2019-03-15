@@ -1,0 +1,68 @@
+{
+  "staticEncodingList": {
+    "message": "Windows-1257,ISO-8859-4,ISO-8859-13"
+  },
+  "tipCurrent": {
+    "message": "Dabartinis puslapis"
+  },
+  "default": {
+    "message": "Numatytasis"
+  },
+  "encodingUnicode": {
+    "message": "Unikodas"
+  },
+  "encodingWestern": {
+    "message": "Vakarų"
+  },
+  "encodingChineseSimplified": {
+    "message": "Kinų supaprastintoji"
+  },
+  "encodingChineseTraditional": {
+    "message": "Kinų tradicinė"
+  },
+  "encodingKorean": {
+    "message": "Korėjiečių"
+  },
+  "encodingJapanese": {
+    "message": "Japonų"
+  },
+  "encodingThai": {
+    "message": "Tajų"
+  },
+  "encodingCentralEuropean": {
+    "message": "Centrinės Europos"
+  },
+  "encodingCyrillic": {
+    "message": "Kirilica"
+  },
+  "encodingGreek": {
+    "message": "Graikų"
+  },
+  "encodingBaltic": {
+    "message": "Baltijos šalių"
+  },
+  "encodingSouthEuropean": {
+    "message": "Pietų Europos"
+  },
+  "encodingNordic": {
+    "message": "Šiaurės šalių"
+  },
+  "encodingCeltic": {
+    "message": "Keltų"
+  },
+  "encodingRomanian": {
+    "message": "Rumunų"
+  },
+  "encodingTurkish": {
+    "message": "Turkų"
+  },
+  "encodingArabic": {
+    "message": "Arabų"
+  },
+  "encodingHebrew": {
+    "message": "Hebrajų"
+  },
+  "encodingVietnamese": {
+    "message": "Vietnamiečių"
+  }
+}

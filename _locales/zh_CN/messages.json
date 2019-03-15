@@ -1,83 +1,98 @@
 {
-    "appName": {
-        "message": "Charset",
-        "description": "Extension: Name"
-    },
-    "appShortName": {
-        "message": "Charset",
-        "description": "Extension: Short Name"
-    },
-    "appDescription": {
-        "message": "修改网站的默认编码",
-        "description": "Extension: Short Name"
-    },
-    "cannotLoadLocalFile": {
-        "message": "Charset扩展程序无法读取file://协议文件！\n请在扩展设置页面勾选“允许访问文件网址”选项！"
-    },
-    "btnReset": {
-        "message": "复位",
-        "description": "Reset default charset"
-    },
-    "tipCurrent": {
-        "message": "当前：",
-        "description": "The encoding used for the current page"
-    },
-    "settingMenu": {
-        "message": "显示右键菜单：",
-        "description": "Show Menu or Not"
-    },
-    "default": {
-        "message": "默认"
-    },
-    "Chinese": {
-        "message": "中文"
-    },
-    "Arabic": {
-        "message": "阿拉伯语"
-    },
-    "Baltic": {
-        "message": "波罗的海周边语言"
-    },
-    "Celtic": {
-        "message": "凯尔特语"
-    },
-    "CentralEuropean": {
-        "message": "中欧语言"
-    },
-    "Cyrillic": {
-        "message": "西里尔语"
-    },
-    "Greek": {
-        "message": "希腊语"
-    },
-    "Hebrew": {
-        "message": "希伯来语"
-    },
-    "Japanese": {
-        "message": "日语"
-    },
-    "Korean": {
-        "message": "韩语"
-    },
-    "Nordic": {
-        "message": "北欧语言"
-    },
-    "Romanian": {
-        "message": "罗马尼亚语"
-    },
-    "SouthEuropean": {
-        "message": "南欧语言"
-    },
-    "Thai": {
-        "message": "泰语"
-    },
-    "Turkish": {
-        "message": "土耳其语"
-    },
-    "Vietnamese": {
-        "message": "越南语"
-    },
-    "Western": {
-        "message": "西欧语言"
-    }
+  "appDescription": {
+    "message": "修改网站的默认编码"
+  },
+  "staticEncodingList": {
+    "message": "GBK,GB18030"
+  },
+  "cannotLoadLocalFile": {
+    "message": "Charset 扩展程序无法读取file://协议文件！\n请在扩展设置页面勾选“允许访问文件网址”选项！"
+  },
+  "unknown": {
+    "message": "未知"
+  },
+  "btnReset": {
+    "message": "重置"
+  },
+  "tipCurrent": {
+    "message": "当前页面"
+  },
+  "defaultEncodingEnabled": {
+    "message": "默认编码: $1"
+  },
+  "tipDisableDefaultEncoding": {
+    "message": "您可以在选项页面选择默认编码"
+  },
+  "optionMenu": {
+    "message": "显示菜单"
+  },
+  "optionDefaultEncoding": {
+    "message": "默认编码"
+  },
+  "optionRecommendEncoding": {
+    "message": "推荐"
+  },
+  "optionOtherEncoding": {
+    "message": "其他"
+  },
+  "default": {
+    "message": "默认"
+  },
+  "encodingUnicode": {
+    "message": "Unicode"
+  },
+  "encodingWestern": {
+    "message": "西欧语言"
+  },
+  "encodingChineseSimplified": {
+    "message": "中文（简体）"
+  },
+  "encodingChineseTraditional": {
+    "message": "中文（繁体）"
+  },
+  "encodingKorean": {
+    "message": "韩语"
+  },
+  "encodingJapanese": {
+    "message": "日语"
+  },
+  "encodingThai": {
+    "message": "泰语"
+  },
+  "encodingCentralEuropean": {
+    "message": "中欧语言"
+  },
+  "encodingCyrillic": {
+    "message": "西里尔语"
+  },
+  "encodingGreek": {
+    "message": "希腊语"
+  },
+  "encodingBaltic": {
+    "message": "波罗的海周边语言"
+  },
+  "encodingSouthEuropean": {
+    "message": "南欧语言"
+  },
+  "encodingNordic": {
+    "message": "北欧语言"
+  },
+  "encodingCeltic": {
+    "message": "凯尔特语"
+  },
+  "encodingRomanian": {
+    "message": "罗马尼亚语"
+  },
+  "encodingTurkish": {
+    "message": "土耳其语"
+  },
+  "encodingArabic": {
+    "message": "阿拉伯语"
+  },
+  "encodingHebrew": {
+    "message": "希伯来语"
+  },
+  "encodingVietnamese": {
+    "message": "越南语"
+  }
 }

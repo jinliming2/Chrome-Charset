@@ -1,0 +1,68 @@
+{
+  "staticEncodingList": {
+    "message": "Windows-1257,ISO-8859-4,ISO-8859-13"
+  },
+  "tipCurrent": {
+    "message": "Pašreizējā lapa"
+  },
+  "default": {
+    "message": "Noklusējums"
+  },
+  "encodingUnicode": {
+    "message": "Unikoda"
+  },
+  "encodingWestern": {
+    "message": "Rietumu"
+  },
+  "encodingChineseSimplified": {
+    "message": "Vienkāršotā ķīniešu"
+  },
+  "encodingChineseTraditional": {
+    "message": "Tradicionālā ķīniešu"
+  },
+  "encodingKorean": {
+    "message": "Korejiešu valoda"
+  },
+  "encodingJapanese": {
+    "message": "Japāņu valoda"
+  },
+  "encodingThai": {
+    "message": "Taizemiešu valoda"
+  },
+  "encodingCentralEuropean": {
+    "message": "Centrāleiropiešu"
+  },
+  "encodingCyrillic": {
+    "message": "Kiriliska"
+  },
+  "encodingGreek": {
+    "message": "Grieķu valoda"
+  },
+  "encodingBaltic": {
+    "message": "Baltu"
+  },
+  "encodingSouthEuropean": {
+    "message": "Dienvideiropiešu"
+  },
+  "encodingNordic": {
+    "message": "Skandināvu"
+  },
+  "encodingCeltic": {
+    "message": "Ķeltu"
+  },
+  "encodingRomanian": {
+    "message": "Rumāņu valoda"
+  },
+  "encodingTurkish": {
+    "message": "Turku valoda"
+  },
+  "encodingArabic": {
+    "message": "Arābu valoda"
+  },
+  "encodingHebrew": {
+    "message": "Ebreju valoda"
+  },
+  "encodingVietnamese": {
+    "message": "Vjetnamiešu"
+  }
+}

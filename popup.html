@@ -1,27 +1,21 @@
 <!DOCTYPE html>
-<html lang="zh-cmn-Hans">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
-    <meta name="author" content="金黎明,Liming Jin,jinliming2@gmail.com,Tianjin China">
-    <link rel="stylesheet" href="./c/popup.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+  <meta name="author" content="金黎明,Liming Jin,jinliming2@gmail.com,Tianjin China">
+  <link rel="stylesheet" href="./c/popup.css">
+  <script src="./j/encoding.js" defer></script>
+  <script src="./j/popup.js" defer></script>
 </head>
 <body>
-<div>
-    <span id="tip_current"></span><span id="current"></span>
-</div>
-<button type="button" id="reset"></button>
-<hr>
-<div id="list"></div>
-<hr>
-<div class="setting">
-    <label id="context_menu"></label>
-    <div class="switch">
-        <input id="menu" type="checkbox">
-        <label for="menu"></label>
-    </div>
-</div>
-<script src="./j/encoding.js"></script>
-<script src="./j/popup.js"></script>
+  <div class="line">
+    <span id="tip-current"></span>
+    <span id="current"></span>
+  </div>
+  <div id="default-tip" class="line tip"></div>
+  <button type="button" id="reset"></button>
+  <hr>
+  <div id="list"></div>
 </body>
 </html>

@@ -1,0 +1,68 @@
+{
+  "staticEncodingList": {
+    "message": "Windows-1257,ISO-8859-4,ISO-8859-13"
+  },
+  "tipCurrent": {
+    "message": "Käesolev lehekülg"
+  },
+  "default": {
+    "message": "Vaikimisi"
+  },
+  "encodingUnicode": {
+    "message": "Unicode"
+  },
+  "encodingWestern": {
+    "message": "Lääne"
+  },
+  "encodingChineseSimplified": {
+    "message": "Hiina (lihtsustatud)"
+  },
+  "encodingChineseTraditional": {
+    "message": "Hiina (traditsiooniline)"
+  },
+  "encodingKorean": {
+    "message": "korea keel"
+  },
+  "encodingJapanese": {
+    "message": "jaapani keel"
+  },
+  "encodingThai": {
+    "message": "Tai"
+  },
+  "encodingCentralEuropean": {
+    "message": "Kesk-Euroopa"
+  },
+  "encodingCyrillic": {
+    "message": "Kirillits"
+  },
+  "encodingGreek": {
+    "message": "kreeka keel"
+  },
+  "encodingBaltic": {
+    "message": "Balti"
+  },
+  "encodingSouthEuropean": {
+    "message": "Lõuna-Euroopa"
+  },
+  "encodingNordic": {
+    "message": "Põhjamaade"
+  },
+  "encodingCeltic": {
+    "message": "Keldi"
+  },
+  "encodingRomanian": {
+    "message": "rumeenia keel"
+  },
+  "encodingTurkish": {
+    "message": "türgi keel"
+  },
+  "encodingArabic": {
+    "message": "araabia keel"
+  },
+  "encodingHebrew": {
+    "message": "heebrea keel"
+  },
+  "encodingVietnamese": {
+    "message": "vietnami keel"
+  }
+}

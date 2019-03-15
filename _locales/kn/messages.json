@@ -1,0 +1,68 @@
+{
+  "staticEncodingList": {
+    "message": "Windows-1252"
+  },
+  "tipCurrent": {
+    "message": "ಪ್ರಸ್ತುತ ಪುಟ"
+  },
+  "default": {
+    "message": "ಡಿಫಾಲ್ಟ್"
+  },
+  "encodingUnicode": {
+    "message": "ಯುನಿಕೋಡ್"
+  },
+  "encodingWestern": {
+    "message": "ವೆಸ್ಟರ್ನ್"
+  },
+  "encodingChineseSimplified": {
+    "message": "ಸರಳೀಕೃತ ಚೈನೀಸ್"
+  },
+  "encodingChineseTraditional": {
+    "message": "ಸಾಂಪ್ರದಾಯಿಕ ಚೈನೀಸ್"
+  },
+  "encodingKorean": {
+    "message": "ಕೊರಿಯನ್"
+  },
+  "encodingJapanese": {
+    "message": "ಜಪಾನೀಸ್"
+  },
+  "encodingThai": {
+    "message": "ಥಾಯ್"
+  },
+  "encodingCentralEuropean": {
+    "message": "ಮಧ್ಯ ಯುರೋಪಿಯನ್"
+  },
+  "encodingCyrillic": {
+    "message": "ಸಿರಿಲಿಕ್"
+  },
+  "encodingGreek": {
+    "message": "ಗ್ರೀಕ್"
+  },
+  "encodingBaltic": {
+    "message": "ಬಾಲ್ಟಿಕ್"
+  },
+  "encodingSouthEuropean": {
+    "message": "ದಕ್ಷಿಣ ಯುರೋಪಿಯನ್"
+  },
+  "encodingNordic": {
+    "message": "ನೋರ್ಡಿಕ್"
+  },
+  "encodingCeltic": {
+    "message": "ಸೆಲ್ಟಿಕ್"
+  },
+  "encodingRomanian": {
+    "message": "ರೊಮೇನಿಯನ್"
+  },
+  "encodingTurkish": {
+    "message": "ಟರ್ಕಿಶ್"
+  },
+  "encodingArabic": {
+    "message": "Arabic"
+  },
+  "encodingHebrew": {
+    "message": "Hebrew"
+  },
+  "encodingVietnamese": {
+    "message": "ವಿಯೇಟ್ನಾಮಿಸ್"
+  }
+}

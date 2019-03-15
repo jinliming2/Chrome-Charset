@@ -1,0 +1,68 @@
+{
+  "staticEncodingList": {
+    "message": "ISO-8859-2,Windows-1250"
+  },
+  "tipCurrent": {
+    "message": "Aktuális oldal"
+  },
+  "default": {
+    "message": "Alapértelmezett"
+  },
+  "encodingUnicode": {
+    "message": "Unicode"
+  },
+  "encodingWestern": {
+    "message": "Nyugat-európai"
+  },
+  "encodingChineseSimplified": {
+    "message": "Kínai egyszerűsített"
+  },
+  "encodingChineseTraditional": {
+    "message": "Kínai (hagyományos)"
+  },
+  "encodingKorean": {
+    "message": "koreai"
+  },
+  "encodingJapanese": {
+    "message": "japán"
+  },
+  "encodingThai": {
+    "message": "thai"
+  },
+  "encodingCentralEuropean": {
+    "message": "Közép-európai"
+  },
+  "encodingCyrillic": {
+    "message": "Cirill"
+  },
+  "encodingGreek": {
+    "message": "görög"
+  },
+  "encodingBaltic": {
+    "message": "Balti"
+  },
+  "encodingSouthEuropean": {
+    "message": "Dél-európai"
+  },
+  "encodingNordic": {
+    "message": "Skandináv"
+  },
+  "encodingCeltic": {
+    "message": "Kelta"
+  },
+  "encodingRomanian": {
+    "message": "román"
+  },
+  "encodingTurkish": {
+    "message": "török"
+  },
+  "encodingArabic": {
+    "message": "arab"
+  },
+  "encodingHebrew": {
+    "message": "héber"
+  },
+  "encodingVietnamese": {
+    "message": "vietnámi"
+  }
+}

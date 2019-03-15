@@ -1,0 +1,68 @@
+{
+  "staticEncodingList": {
+    "message": "Windows-1251,KOI8-U,KOI8-R,ISO-8859-5"
+  },
+  "tipCurrent": {
+    "message": "Поточна сторінка"
+  },
+  "default": {
+    "message": "За умовчанням"
+  },
+  "encodingUnicode": {
+    "message": "Юнікод"
+  },
+  "encodingWestern": {
+    "message": "Західна"
+  },
+  "encodingChineseSimplified": {
+    "message": "Китайська (спрощене письмо)"
+  },
+  "encodingChineseTraditional": {
+    "message": "Китайська (традиційне письмо)"
+  },
+  "encodingKorean": {
+    "message": "Корейська"
+  },
+  "encodingJapanese": {
+    "message": "Японська"
+  },
+  "encodingThai": {
+    "message": "Тайська"
+  },
+  "encodingCentralEuropean": {
+    "message": "Центрально-європейська"
+  },
+  "encodingCyrillic": {
+    "message": "Кирилиця"
+  },
+  "encodingGreek": {
+    "message": "Грецька"
+  },
+  "encodingBaltic": {
+    "message": "Балтійська"
+  },
+  "encodingSouthEuropean": {
+    "message": "Південно-європейська"
+  },
+  "encodingNordic": {
+    "message": "Скандинавська"
+  },
+  "encodingCeltic": {
+    "message": "Кельтська"
+  },
+  "encodingRomanian": {
+    "message": "Румунська"
+  },
+  "encodingTurkish": {
+    "message": "Турецька"
+  },
+  "encodingArabic": {
+    "message": "Арабська"
+  },
+  "encodingHebrew": {
+    "message": "Іврит"
+  },
+  "encodingVietnamese": {
+    "message": "В’єтнамська"
+  }
+}
