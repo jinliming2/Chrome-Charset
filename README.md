@@ -20,7 +20,7 @@ A Google Chrome extension used to modify the page default encoding for Google Ch
 [Google Chrome Web Store](https://chrome.google.com/webstore/detail/oenllhgkiiljibhfagbfogdbchhdchml)
 
 ## History
-### v0.5.0()
+### v0.5.0(2019/3/15)
 1. 【重构】将编码探测脚本改为按需执行
 2. 【重构】网络请求事件改为按需注册，并在扩展程序不需要工作时卸载
 3. 【i18n】新增多个国家语言的翻译，并针对部分 RTL 语种优化页面布局
