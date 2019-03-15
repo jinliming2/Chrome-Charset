@@ -1,4 +1,7 @@
 {
+  "appName": {
+    "message": "Charset"
+  },
   "staticEncodingList": {
     "message": "Windows-1251,KOI8-U,KOI8-R,ISO-8859-5"
   },

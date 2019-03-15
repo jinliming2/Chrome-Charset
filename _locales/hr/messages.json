@@ -1,4 +1,7 @@
 {
+  "appName": {
+    "message": "Charset"
+  },
   "staticEncodingList": {
     "message": "ISO-8859-2,Windows-1250"
   },

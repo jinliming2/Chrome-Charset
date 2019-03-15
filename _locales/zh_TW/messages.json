@@ -1,4 +1,7 @@
 {
+  "appName": {
+    "message": "Charset"
+  },
   "appDescription": {
     "message": "修改網站的默認編碼"
   },
