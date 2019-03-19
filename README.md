@@ -20,6 +20,9 @@ A Google Chrome extension used to modify the page default encoding for Google Ch
 [Google Chrome Web Store](https://chrome.google.com/webstore/detail/oenllhgkiiljibhfagbfogdbchhdchml)
 
 ## History
+### v0.5.1(2019/3/19)
+1. 【修复】由于 v0.5.0 发布时少打包了一个文件，导致 Chrome 商店无法安装、更新
+
 ### v0.5.0(2019/3/15)
 1. 【重构】将编码探测脚本改为按需执行
 2. 【重构】网络请求事件改为按需注册，并在扩展程序不需要工作时卸载
