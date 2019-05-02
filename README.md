@@ -1,6 +1,7 @@
 # Chrome-Charset
-[![Developing](https://img.shields.io/badge/Chrome--Charset-developing-yellow.svg)](https://github.com/jinliming2/Chrome-Charset)
+[![Launched](https://img.shields.io/badge/Chrome--Charset-launched-brightgreen.svg)](https://github.com/jinliming2/Chrome-Charset)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/jinliming2/Chrome-Charset/master/LICENSE)
+[![GitHub Release](https://img.shields.io/github/release/jinliming2/Chrome-Charset.svg)](https://github.com/jinliming2/Chrome-Charset/releases)
 [![GitHub stars](https://img.shields.io/github/stars/jinliming2/Chrome-Charset.svg)](https://github.com/jinliming2/Chrome-Charset/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/jinliming2/Chrome-Charset.svg)](https://github.com/jinliming2/Chrome-Charset/network)
 [![GitHub issues](https://img.shields.io/github/issues/jinliming2/Chrome-Charset.svg)](https://github.com/jinliming2/Chrome-Charset/issues)
@@ -17,7 +18,26 @@ A Google Chrome extension used to modify the page default encoding for Google Ch
 用于在Google Chrome浏览器下修改网站默认编码的扩展程序。
 
 ## Release
-[Google Chrome Web Store](https://chrome.google.com/webstore/detail/oenllhgkiiljibhfagbfogdbchhdchml)
+- **[Google Chrome Web Store](https://chrome.google.com/webstore/detail/oenllhgkiiljibhfagbfogdbchhdchml) / Recommend 推荐**
+- [GitHub Release](https://github.com/jinliming2/Chrome-Charset/releases)
+
+### Package is invalid: "CRX_HEADER_INVALID"
+> Download from the Google Chrome Web Store may never get this error.
+>
+> 从 Google Chrome 商店安装时应该不会碰到这个错误。
+
+Google Chrome 70 started to support CRX3 and disabled old version of CRX file in Chrome 73. So, if your browser version greater than 70, please download crx3 version. ([#12](https://github.com/jinliming2/Chrome-Charset/issues/12))
+
+Google Chrome 70 开始支持 CRX3 格式的扩展程序，并且在 Chrome 73 之后禁用了旧版本的扩展程序格式。所以，如果你的浏览器版本大于 70，建议下载 crx3 版本。（[#12](https://github.com/jinliming2/Chrome-Charset/issues/12)）
+
+### About GitHub Release
+First of all, I recommend you install this extension from the Google Chrome Web Store.
+
+Releases from GitHub are downloaded from Google Chrome Web Store, so it also included upgrade info and verification metadata, and can also upgrade automatically.
+
+首先，我建议从 Google Chrome Web Store 安装这个扩展程序。
+
+GitHub Release 中的 crx 文件都是从 Google Chrome Web Store 下载的而不是自己打包的，所以包含了升级信息以及校验元数据，安装后应该不会报警告，同时也会自动到商店检查更新。
 
 ## History
 ### v0.5.1(2019/3/19)
