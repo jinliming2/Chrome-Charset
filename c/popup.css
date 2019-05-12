@@ -1,24 +1,21 @@
-:root {
-  --font-colour: #202124;
-  --border: 1px solid #d2e3fc;
-  --google-blue-600: #1a73e8;
-}
 html {
   min-width: fit-content;
+  background-color: var(--background-colour);
+  background-image: var(--background-image);
   direction: __MSG_@@bidi_dir__;
 }
 body {
   margin: 0;
-  color: var(--font-colour);
+  color: var(--cr-primary-text-colour);
   font-family: Roboto,'Segoe UI',Arial,'Microsoft Yahei',sans-serif;
   font-size: 81.25%;
 }
 button {
   border: none;
-  border-top: var(--border);
+  border-top: var(--cr-separator-line);
   background: transparent;
   cursor: pointer;
-  color: var(--google-blue-600);
+  color: var(--text-colour);
   font-weight: 500;
   padding: 8px 16px;
   width: 100%;
@@ -33,10 +30,10 @@ button {
   box-sizing: border-box;
 }
 button:hover {
-  background-color: rgba(66, 133, 244, .04);
+  background-color: var(--hover-bg-colour);
 }
 button:active {
-  background: #fff;
+  background: var(--active-bg);
 }
 button .ink {
   overflow: hidden;
@@ -49,18 +46,20 @@ button .ink {
 }
 button .ink .ripple {
   border-radius: 50%;
-  background-color: var(--google-blue-600);
+  background-color: var(--paper-button-ink-colour);
   position: absolute;
-  opacity: .1;
+  top: 0;
+  left: 0;
+  opacity: var(--ripple-opacity);
   pointer-events: none;
   will-change: height, transform, width;
 }
 hr {
   margin: 0;
-  border: var(--border);
+  border: var(--cr-separator-line);
 }
 .line {
-  border-top: 1px solid rgba(0, 0, 0, .06);
+  border-top: var(--cr-separator-line);
   display: flex;
   align-items: center;
   min-height: 48px;
@@ -74,7 +73,7 @@ hr {
 }
 .line.tip {
   min-height: 0;
-  background-color: #f1f3f4;
+  background-color: var(--md-select-bg-colour);
   cursor: help;
 }
 .line > :not(:first-child) {
@@ -86,8 +85,8 @@ hr {
   height: 8px;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: #8db9f4;
+  background-color: var(--scroll-bar-colour);
 }
 ::-webkit-scrollbar-track-piece {
-    background-color: #d2e3fc;
+  background-color: var(--scroll-bar-background-colour);
 }

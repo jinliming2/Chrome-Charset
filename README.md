@@ -40,6 +40,9 @@ Releases from GitHub are downloaded from Google Chrome Web Store, so it also inc
 GitHub Release 中的 crx 文件都是从 Google Chrome Web Store 下载的而不是自己打包的，所以包含了升级信息以及校验元数据，安装后应该不会报警告，同时也会自动到商店检查更新。
 
 ## History
+### v0.5.2(2019/5/12)
+1. 【样式】适配新版 Chrome Dark 模式主题
+
 ### v0.5.1(2019/3/19)
 1. 【修复】由于 v0.5.0 发布时少打包了一个文件，导致 Chrome 商店无法安装、更新
 
