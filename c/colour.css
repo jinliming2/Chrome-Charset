@@ -1,0 +1,65 @@
+:root {
+  --google-blue-500-rgb: 66, 133, 244;
+  --google-blue-600-rgb: 26, 115, 232;
+  --google-blue-600: rgb(var(--google-blue-600-rgb));
+  --google-blue-refresh-100: #d2e3fc;
+  --google-blue-refresh-300-rgb: 138, 180, 248;
+  --google-blue-refresh-300: rgb(var(--google-blue-refresh-300-rgb));
+  --google-grey-200: #e8eaed;
+  --google-grey-400: #bdc1c6;
+  --google-grey-600: #80868b;
+  --google-grey-900: #202124;
+  --google-grey-refresh-100: #f1f3f4;
+  --google-grey-refresh-300: #dadce0;
+  --google-grey-refresh-500: #9aa0a6;
+  --google-grey-refresh-700: #5f6368;
+
+  --background-colour: #fff;
+  --background-image: initial;
+  --scroll-bar-colour: var(--google-blue-refresh-300);
+  --scroll-bar-background-colour: var(--google-blue-refresh-100);
+  --text-colour: var(--google-blue-600);
+  --hover-bg-colour: rgba(var(--google-blue-500-rgb), .04);
+  --active-bg: #fff;
+  --paper-button-ink-colour: var(--google-blue-600);
+  --ripple-opacity: .1;
+  --cr-primary-text-colour: var(--google-grey-900);
+  --cr-secondary-text-colour: var(--google-grey-refresh-700);
+  --cr-separator-line: 1px solid rgba(0, 0, 0, .06);
+  --cr-toggle-unchecked-bar-colour: var(--google-grey-400);
+  --cr-toggle-unchecked-button-colour: #fff;
+  --cr-toggle-unchecked-ink-colour: var(--google-grey-600);
+  --cr-toggle-checked-bar-colour: var(--google-blue-600);
+  --cr-toggle-checked-button-colour: var(--google-blue-600);
+  --cr-toggle-checked-ink-colour: var(--google-blue-600);
+  --md-select-bg-colour: var(--google-grey-refresh-100);
+  --md-select-focus-shadow-colour: rgba(var(--google-blue-600-rgb), .4);
+  --md-select-option-bg-colour: #fff;
+  --image-arrow-down: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2212px%22%20viewBox%3D%220%200%2024%2012%22%20fill%3D%22%235F6368%22%3E%3Cg%3E%3Cpath%20d%3D%22M%200%200%20L%2024%200%20L%2012%2012%20z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E');
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-colour: var(--google-grey-900);
+    --background-image: linear-gradient(rgba(255, 255, 255, .04), rgba(255, 255, 255, .04));
+    --scroll-bar-colour: var(--google-grey-refresh-700);
+    --scroll-bar-background-colour: var(--google-grey-refresh-500);
+    --text-colour: var(--google-blue-refresh-300);
+    --hover-bg-colour: rgba(var(--google-blue-refresh-300-rgb), .08);
+    --active-bg: black linear-gradient(rgba(255, 255, 255, .06), rgba(255, 255, 255, .06));
+    --paper-button-ink-colour: var(--google-blue-refresh-300);
+    --ripple-opacity: .16;
+    --cr-primary-text-colour: var(--google-grey-200);
+    --cr-secondary-text-colour: var(--google-grey-refresh-500);
+    --cr-separator-line: 1px solid rgba(255, 255, 255, .1);
+    --cr-toggle-unchecked-bar-colour: var(--google-grey-refresh-500);
+    --cr-toggle-unchecked-button-colour: var(--google-grey-refresh-300);
+    --cr-toggle-unchecked-ink-colour: var(--google-grey-refresh-300);
+    --cr-toggle-checked-bar-colour: var(--google-blue-refresh-300);
+    --cr-toggle-checked-button-colour: var(--google-blue-refresh-300);
+    --cr-toggle-checked-ink-colour: var(--google-blue-refresh-300);
+    --md-select-bg-colour: rgba(0, 0, 0, .3);
+    --md-select-focus-shadow-colour: rgba(var(--google-blue-refresh-300-rgb), .5);
+    --md-select-option-bg-colour: #28292c;
+    --image-arrow-down: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2212px%22%20viewBox%3D%220%200%2024%2012%22%20fill%3D%22%239aa0a6%22%3E%3Cg%3E%3Cpath%20d%3D%22M%200%200%20L%2024%200%20L%2012%2012%20z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E');
+  }
+}
