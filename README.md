@@ -5,6 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/jinliming2/Chrome-Charset.svg)](https://github.com/jinliming2/Chrome-Charset/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/jinliming2/Chrome-Charset.svg)](https://github.com/jinliming2/Chrome-Charset/network)
 [![GitHub issues](https://img.shields.io/github/issues/jinliming2/Chrome-Charset.svg)](https://github.com/jinliming2/Chrome-Charset/issues)
+[![Financial Contributors on Open Collective](https://opencollective.com/charset/all/badge.svg?label=financial+contributors)](https://opencollective.com/charset) 
 
 [![Chrome Web Store Rating](https://img.shields.io/chrome-web-store/rating/oenllhgkiiljibhfagbfogdbchhdchml.svg)](https://chrome.google.com/webstore/detail/oenllhgkiiljibhfagbfogdbchhdchml)
 [![Chrome Web Store Stars](https://img.shields.io/chrome-web-store/stars/oenllhgkiiljibhfagbfogdbchhdchml.svg)](https://chrome.google.com/webstore/detail/oenllhgkiiljibhfagbfogdbchhdchml)
@@ -83,3 +84,33 @@ GitHub Release 中的 crx 文件都是从 Google Chrome Web Store 下载的而�
 
 ### v0.1(2017/2/14)
 1. 测试版，对Chrome 54选择编码功能中所列出的编码进行了支持。
+
+## Contributors
+
+### Code Contributors
+
+This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
+<a href="https://github.com/jinliming2/Chrome-Charset/graphs/contributors"><img src="https://opencollective.com/charset/contributors.svg?width=890&button=false" /></a>
+
+### Financial Contributors
+
+Become a financial contributor and help us sustain our community. [[Contribute](https://opencollective.com/charset/contribute)]
+
+#### Individuals
+
+<a href="https://opencollective.com/charset"><img src="https://opencollective.com/charset/individuals.svg?width=890"></a>
+
+#### Organizations
+
+Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/charset/contribute)]
+
+<a href="https://opencollective.com/charset/organization/0/website"><img src="https://opencollective.com/charset/organization/0/avatar.svg"></a>
+<a href="https://opencollective.com/charset/organization/1/website"><img src="https://opencollective.com/charset/organization/1/avatar.svg"></a>
+<a href="https://opencollective.com/charset/organization/2/website"><img src="https://opencollective.com/charset/organization/2/avatar.svg"></a>
+<a href="https://opencollective.com/charset/organization/3/website"><img src="https://opencollective.com/charset/organization/3/avatar.svg"></a>
+<a href="https://opencollective.com/charset/organization/4/website"><img src="https://opencollective.com/charset/organization/4/avatar.svg"></a>
+<a href="https://opencollective.com/charset/organization/5/website"><img src="https://opencollective.com/charset/organization/5/avatar.svg"></a>
+<a href="https://opencollective.com/charset/organization/6/website"><img src="https://opencollective.com/charset/organization/6/avatar.svg"></a>
+<a href="https://opencollective.com/charset/organization/7/website"><img src="https://opencollective.com/charset/organization/7/avatar.svg"></a>
+<a href="https://opencollective.com/charset/organization/8/website"><img src="https://opencollective.com/charset/organization/8/avatar.svg"></a>
+<a href="https://opencollective.com/charset/organization/9/website"><img src="https://opencollective.com/charset/organization/9/avatar.svg"></a>
