@@ -40,6 +40,9 @@ Releases from GitHub are downloaded from Google Chrome Web Store, so it also inc
 GitHub Release 中的 crx 文件都是从 Google Chrome Web Store 下载的而不是自己打包的，所以包含了升级信息以及校验元数据，安装后应该不会报警告，同时也会自动到商店检查更新。
 
 ## History
+### v0.5.3(2020/3/15)
+1. 【样式】适配 Edge 浏览器选项页宽度
+
 ### v0.5.2(2019/5/12)
 1. 【样式】适配新版 Chrome Dark 模式主题
 
