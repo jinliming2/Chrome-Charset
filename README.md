@@ -5,6 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/jinliming2/Chrome-Charset.svg)](https://github.com/jinliming2/Chrome-Charset/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/jinliming2/Chrome-Charset.svg)](https://github.com/jinliming2/Chrome-Charset/network)
 [![GitHub issues](https://img.shields.io/github/issues/jinliming2/Chrome-Charset.svg)](https://github.com/jinliming2/Chrome-Charset/issues)
+[![Privacy Policy 隐私策略](https://img.shields.io/badge/Privacy--Policy-隐私策略-f74455.svg)](./PrivacyPolicy.md)
 
 [![Chrome Web Store Rating](https://img.shields.io/chrome-web-store/rating/oenllhgkiiljibhfagbfogdbchhdchml.svg)](https://chrome.google.com/webstore/detail/oenllhgkiiljibhfagbfogdbchhdchml)
 [![Chrome Web Store Stars](https://img.shields.io/chrome-web-store/stars/oenllhgkiiljibhfagbfogdbchhdchml.svg)](https://chrome.google.com/webstore/detail/oenllhgkiiljibhfagbfogdbchhdchml)
@@ -13,12 +14,13 @@
 [![Chrome Web Store Downloads](https://img.shields.io/chrome-web-store/d/oenllhgkiiljibhfagbfogdbchhdchml.svg)](https://chrome.google.com/webstore/detail/oenllhgkiiljibhfagbfogdbchhdchml)
 
 
-A Google Chrome extension used to modify the page default encoding for Google Chrome 55+.
+An extension used to modify the page default encoding for Chromium 55+ based browsers.
 
-用于在Google Chrome浏览器下修改网站默认编码的扩展程序。
+用于在基于 Chromium 55+ 内核的浏览器下修改网站默认编码的扩展程序。
 
 ## Release
 - **[Google Chrome Web Store](https://chrome.google.com/webstore/detail/oenllhgkiiljibhfagbfogdbchhdchml) / Recommend 推荐**
+- **[Microsoft Edge Web Store](https://microsoftedge.microsoft.com/addons/detail/ljameaionljangkhnobkellagnjjohno) / Recommend 推荐**
 - [GitHub Release](https://github.com/jinliming2/Chrome-Charset/releases)
 
 ### Package is invalid: "CRX_HEADER_INVALID"
@@ -31,11 +33,11 @@ Google Chrome 70 started to support CRX3 and disabled old version of CRX file in
 Google Chrome 70 开始支持 CRX3 格式的扩展程序，并且在 Chrome 73 之后禁用了旧版本的扩展程序格式。所以，如果你的浏览器版本大于 70，建议下载 crx3 版本。（[#12](https://github.com/jinliming2/Chrome-Charset/issues/12)）
 
 ### About GitHub Release
-First of all, I recommend you install this extension from the Google Chrome Web Store.
+First of all, I recommend you install this extension from the Google Chrome Web Store or Microsoft Edge Web Store.
 
 Releases from GitHub are downloaded from Google Chrome Web Store, so it also included upgrade info and verification metadata, and can also upgrade automatically.
 
-首先，我建议从 Google Chrome Web Store 安装这个扩展程序。
+首先，我建议从 Google Chrome Web Store / Microsoft Edge Web Store 安装这个扩展程序。
 
 GitHub Release 中的 crx 文件都是从 Google Chrome Web Store 下载的而不是自己打包的，所以包含了升级信息以及校验元数据，安装后应该不会报警告，同时也会自动到商店检查更新。
 
