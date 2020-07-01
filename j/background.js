@@ -44,6 +44,7 @@ const getHeaderModifier = () => details => {
     found = true;
     let value = responseHeader.value.toLowerCase();
     if(
+      ['main_frame', 'sub_frame', 'stylesheet', 'script', 'xmlhttprequest'].includes(details.type) ||
       value.startsWith('text') ||
       value.startsWith('application/javascript') ||
       value.startsWith('application/x-javascript') ||
