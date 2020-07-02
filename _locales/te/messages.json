@@ -2,6 +2,9 @@
   "appName": {
     "message": "Charset"
   },
+  "appDescription": {
+    "message": "వెబ్‌సైట్ యొక్క డిఫాల్ట్ ఎన్‌కోడింగ్‌ను సవరించండి"
+  },
   "staticEncodingList": {
     "message": "Windows-1252"
   },

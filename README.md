@@ -44,6 +44,7 @@ GitHub Release 中的 crx 文件都是从 Google Chrome Web Store 下载的而�
 ## History
 ### v0.5.4()
 1. 【匹配】优先根据请求类型进行匹配（GitHub Issue: [#18](https://github.com/jinliming2/Chrome-Charset/issues/18)）
+2. 【i18n】补充扩展描述
 
 ### v0.5.3(2020/3/15)
 1. 【样式】适配 Edge 浏览器选项页宽度

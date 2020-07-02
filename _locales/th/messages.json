@@ -2,6 +2,9 @@
   "appName": {
     "message": "Charset"
   },
+  "appDescription": {
+    "message": "ปรับเปลี่ยนการเข้ารหัสเริ่มต้นของเว็บไซต์"
+  },
   "staticEncodingList": {
     "message": "Windows-874"
   },

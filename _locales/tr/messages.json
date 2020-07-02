@@ -2,6 +2,9 @@
   "appName": {
     "message": "Charset"
   },
+  "appDescription": {
+    "message": "Web sitesinin varsayılan kodlamasını değiştirme"
+  },
   "staticEncodingList": {
     "message": "Windows-1254"
   },

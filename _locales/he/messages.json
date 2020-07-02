@@ -2,6 +2,9 @@
   "appName": {
     "message": "Charset"
   },
+  "appDescription": {
+    "message": "שנה את קידוד ברירת המחדל של האתר"
+  },
   "staticEncodingList": {
     "message": "Windows-1255,ISO-8859-8-I,ISO-8859-8"
   },

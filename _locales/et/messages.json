@@ -2,6 +2,9 @@
   "appName": {
     "message": "Charset"
   },
+  "appDescription": {
+    "message": "Muutke veebisaidi vaikekodeeringut"
+  },
   "staticEncodingList": {
     "message": "Windows-1257,ISO-8859-4,ISO-8859-13"
   },

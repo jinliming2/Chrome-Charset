@@ -2,6 +2,9 @@
   "appName": {
     "message": "Charset"
   },
+  "appDescription": {
+    "message": "Spremenite privzeto kodiranje spletnega mesta"
+  },
   "staticEncodingList": {
     "message": "ISO-8859-2,Windows-1250"
   },

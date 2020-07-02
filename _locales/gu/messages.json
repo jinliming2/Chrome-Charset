@@ -2,6 +2,9 @@
   "appName": {
     "message": "Charset"
   },
+  "appDescription": {
+    "message": "વેબસાઇટના ડિફ defaultલ્ટ એન્કોડિંગમાં ફેરફાર કરો"
+  },
   "staticEncodingList": {
     "message": "Windows-1252"
   },

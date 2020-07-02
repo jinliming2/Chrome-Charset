@@ -2,6 +2,9 @@
   "appName": {
     "message": "Charset"
   },
+  "appDescription": {
+    "message": "Upravit výchozí kódování webu"
+  },
   "staticEncodingList": {
     "message": "ISO-8859-2,Windows-1250"
   },
