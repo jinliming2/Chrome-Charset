@@ -2,6 +2,9 @@
   "appName": {
     "message": "Charset"
   },
+  "appDescription": {
+    "message": "Modificați codarea implicită a site-ului web"
+  },
   "staticEncodingList": {
     "message": "ISO-8859-2,Windows-1250"
   },

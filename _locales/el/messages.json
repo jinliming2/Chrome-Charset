@@ -2,6 +2,9 @@
   "appName": {
     "message": "Charset"
   },
+  "appDescription": {
+    "message": "Τροποποιήστε την προεπιλεγμένη κωδικοποίηση του ιστότοπου"
+  },
   "staticEncodingList": {
     "message": "ISO-8859-7,Windows-1253"
   },

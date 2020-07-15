@@ -2,6 +2,9 @@
   "appName": {
     "message": "Charset"
   },
+  "appDescription": {
+    "message": "Змініть кодування веб-сайту за замовчуванням"
+  },
   "staticEncodingList": {
     "message": "Windows-1251,KOI8-U,KOI8-R,ISO-8859-5"
   },

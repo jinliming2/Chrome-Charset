@@ -2,6 +2,9 @@
   "appName": {
     "message": "Charset"
   },
+  "appDescription": {
+    "message": "웹 사이트의 기본 인코딩 수정"
+  },
   "staticEncodingList": {
     "message": ""
   },

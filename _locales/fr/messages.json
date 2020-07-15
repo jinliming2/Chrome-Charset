@@ -2,6 +2,9 @@
   "appName": {
     "message": "Charset"
   },
+  "appDescription": {
+    "message": "Modifier l'encodage par défaut du site Web"
+  },
   "staticEncodingList": {
     "message": "Windows-1252,ISO-8859-15"
   },

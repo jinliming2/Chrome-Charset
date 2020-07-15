@@ -2,6 +2,9 @@
   "appName": {
     "message": "Charset"
   },
+  "appDescription": {
+    "message": "Wijzig de standaardcodering van de website"
+  },
   "staticEncodingList": {
     "message": "Windows-1252"
   },

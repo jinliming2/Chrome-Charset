@@ -2,6 +2,9 @@
   "appName": {
     "message": "Charset"
   },
+  "appDescription": {
+    "message": "Измените подразумевано кодирање веб локације"
+  },
   "staticEncodingList": {
     "message": "Windows-1251,KOI8-R,ISO-8859-5"
   },

@@ -2,6 +2,9 @@
   "appName": {
     "message": "Charset"
   },
+  "appDescription": {
+    "message": "Ubah suai pengekodan lalai laman web"
+  },
   "staticEncodingList": {
     "message": ""
   },

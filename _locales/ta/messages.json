@@ -2,6 +2,9 @@
   "appName": {
     "message": "Charset"
   },
+  "appDescription": {
+    "message": "வலைத்தளத்தின் இயல்புநிலை குறியாக்கத்தை மாற்றவும்"
+  },
   "staticEncodingList": {
     "message": "Windows-1252"
   },

@@ -2,6 +2,9 @@
   "appName": {
     "message": "Charset"
   },
+  "appDescription": {
+    "message": "Modifique a codificação padrão do site"
+  },
   "staticEncodingList": {
     "message": "Windows-1252"
   },

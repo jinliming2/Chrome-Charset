@@ -2,6 +2,9 @@
   "appName": {
     "message": "Charset"
   },
+  "appDescription": {
+    "message": "Webサイトのデフォルトのエンコーディングを変更する"
+  },
   "staticEncodingList": {
     "message": "Shift_JIS,EUC-JP,ISO-2022-JP"
   },

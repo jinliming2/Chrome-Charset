@@ -2,6 +2,9 @@
   "appName": {
     "message": "Charset"
   },
+  "appDescription": {
+    "message": "تعديل الترميز الافتراضي للموقع"
+  },
   "staticEncodingList": {
     "message": "Windows-1256,ISO-8859-6"
   },
