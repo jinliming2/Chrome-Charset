@@ -7,11 +7,15 @@
 [![GitHub issues](https://img.shields.io/github/issues/jinliming2/Chrome-Charset.svg)](https://github.com/jinliming2/Chrome-Charset/issues)
 [![Privacy Policy 隐私策略](https://img.shields.io/badge/Privacy--Policy-隐私策略-f74455.svg)](./PrivacyPolicy.md)
 
+[![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/oenllhgkiiljibhfagbfogdbchhdchml.svg)](https://chrome.google.com/webstore/detail/oenllhgkiiljibhfagbfogdbchhdchml)
+[![Chrome Web Store Rating Count](https://img.shields.io/chrome-web-store/rating-count/oenllhgkiiljibhfagbfogdbchhdchml.svg)](https://chrome.google.com/webstore/detail/oenllhgkiiljibhfagbfogdbchhdchml)
 [![Chrome Web Store Rating](https://img.shields.io/chrome-web-store/rating/oenllhgkiiljibhfagbfogdbchhdchml.svg)](https://chrome.google.com/webstore/detail/oenllhgkiiljibhfagbfogdbchhdchml)
 [![Chrome Web Store Stars](https://img.shields.io/chrome-web-store/stars/oenllhgkiiljibhfagbfogdbchhdchml.svg)](https://chrome.google.com/webstore/detail/oenllhgkiiljibhfagbfogdbchhdchml)
-[![Chrome Web Store Rating Count](https://img.shields.io/chrome-web-store/rating-count/oenllhgkiiljibhfagbfogdbchhdchml.svg)](https://chrome.google.com/webstore/detail/oenllhgkiiljibhfagbfogdbchhdchml)
-[![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/oenllhgkiiljibhfagbfogdbchhdchml.svg)](https://chrome.google.com/webstore/detail/oenllhgkiiljibhfagbfogdbchhdchml)
 [![Chrome Web Store Downloads](https://img.shields.io/chrome-web-store/d/oenllhgkiiljibhfagbfogdbchhdchml.svg)](https://chrome.google.com/webstore/detail/oenllhgkiiljibhfagbfogdbchhdchml)
+
+[![Edge Web Store Version](https://img.shields.io/badge/dynamic/json?label=edge%20web%20store&color=3277BC&prefix=v&query=$.version&url=https://microsoftedge.microsoft.com/addons/getproductdetailsbycrxid/ljameaionljangkhnobkellagnjjohno)](https://microsoftedge.microsoft.com/addons/detail/ljameaionljangkhnobkellagnjjohno)
+[![Edge Web Store Rating Count](https://img.shields.io/badge/dynamic/json?label=rating&color=97ca00&query=$.ratingCount&suffix=%20total&url=https://microsoftedge.microsoft.com/addons/getproductdetailsbycrxid/ljameaionljangkhnobkellagnjjohno)](https://microsoftedge.microsoft.com/addons/detail/ljameaionljangkhnobkellagnjjohno)
+[![Edge Web Store Rating](https://img.shields.io/badge/dynamic/json?label=rating&color=4c1&query=$.averageRating&suffix=/5&url=https://microsoftedge.microsoft.com/addons/getproductdetailsbycrxid/ljameaionljangkhnobkellagnjjohno)](https://microsoftedge.microsoft.com/addons/detail/ljameaionljangkhnobkellagnjjohno)
 
 
 An extension used to modify the page default encoding for Chromium 55+ based browsers.
