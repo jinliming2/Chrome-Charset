@@ -6,6 +6,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/jinliming2/Chrome-Charset.svg)](https://github.com/jinliming2/Chrome-Charset/network)
 [![GitHub issues](https://img.shields.io/github/issues/jinliming2/Chrome-Charset.svg)](https://github.com/jinliming2/Chrome-Charset/issues)
 [![Privacy Policy 隐私策略](https://img.shields.io/badge/Privacy--Policy-隐私策略-f74455.svg)](./PrivacyPolicy.md)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fjinliming2%2FChrome-Charset.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fjinliming2%2FChrome-Charset?ref=badge_shield)
 
 [![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/oenllhgkiiljibhfagbfogdbchhdchml.svg)](https://chrome.google.com/webstore/detail/oenllhgkiiljibhfagbfogdbchhdchml)
 [![Chrome Web Store Rating Count](https://img.shields.io/chrome-web-store/rating-count/oenllhgkiiljibhfagbfogdbchhdchml.svg)](https://chrome.google.com/webstore/detail/oenllhgkiiljibhfagbfogdbchhdchml)
@@ -96,3 +97,7 @@ GitHub Release 中的 crx 文件都是从 Google Chrome Web Store 下载的而�
 
 ### v0.1(2017/2/14)
 1. 测试版，对Chrome 54选择编码功能中所列出的编码进行了支持。
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fjinliming2%2FChrome-Charset.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fjinliming2%2FChrome-Charset?ref=badge_large)
