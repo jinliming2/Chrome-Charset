@@ -47,6 +47,9 @@ Releases from GitHub are downloaded from Google Chrome Web Store, so it also inc
 GitHub Release 中的 crx 文件都是从 Google Chrome Web Store 下载的而不是自己打包的，所以包含了升级信息以及校验元数据，安装后应该不会报警告，同时也会自动到商店检查更新。
 
 ## History
+### v0.5.5(2020/12/9)
+1. 【优化】file 协议缺少权限时，不要每次都弹提示框，现在仅弹一次（GitHub Issue: [#23](https://github.com/jinliming2/Chrome-Charset/issues/23)）
+
 ### v0.5.4(2020/7/6)
 1. 【匹配】优先根据请求类型进行匹配（GitHub Issue: [#18](https://github.com/jinliming2/Chrome-Charset/issues/18)）
 2. 【i18n】补充扩展描述
