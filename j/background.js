@@ -1,7 +1,7 @@
 /**
  * Created by Liming on 2017/2/14.
  */
-const charsetPattern = /; ?charset=([^;]+)/;
+const charsetPattern = /; ?charset=([^;]+)/i;
 const html_special_chars = html => html
   .replace(/&/g, '&gt;')
   .replace(/</g, '&lt;')
@@ -83,6 +83,7 @@ const bodyModifier = (tabId, changeInfo, tab) => {
   let xmlHttp = new XMLHttpRequest();
   xmlHttp.overrideMimeType(`text/plain; charset=${encoding}`);
   xmlHttp.onload = () => {
+    localStorage.removeItem('alertedCannotLoadLocalFile');
     const is_html = /\.html?$/.test(tab.url);
     const data = is_html ? encodeURIComponent(xmlHttp.responseText) : encodeURIComponent(html_special_chars(xmlHttp.responseText));
     chrome.tabs.executeScript(tabId, {
@@ -92,7 +93,13 @@ const bodyModifier = (tabId, changeInfo, tab) => {
       runAt: 'document_start',
     });
   };
-  xmlHttp.onerror = () => alert(chrome.i18n.getMessage('cannotLoadLocalFile'));
+  xmlHttp.onerror = () => {
+    if (localStorage.getItem('alertedCannotLoadLocalFile')) {
+      return;
+    }
+    localStorage.setItem('alertedCannotLoadLocalFile', '1');
+    alert(chrome.i18n.getMessage('cannotLoadLocalFile'));
+  };
   xmlHttp.open('GET', tab.url, true);
   xmlHttp.send();
 };
