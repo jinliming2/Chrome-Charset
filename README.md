@@ -1,4 +1,14 @@
 # Chrome-Charset
+
+> [!NOTE]
+> Please refrain from sending me emails regarding "Buy Charset Extension"! Such emails will be ignored and will not receive a response from me!
+>
+> **The publishing rights for this extension are not and will not be for sale, and no advertisements, tracking, or similar logic will be added.**
+>
+> 请停止向我发送形如“购买 Charset 插件”的邮件！这类邮件会被忽略，不会得到我的回复！
+>
+> **此扩展程序的发布权限不会被出售，也不会插入广告、跟踪等逻辑。**
+
 [![Launched](https://img.shields.io/badge/Chrome--Charset-launched-brightgreen.svg)](https://github.com/jinliming2/Chrome-Charset)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/jinliming2/Chrome-Charset/master/LICENSE)
 [![GitHub Release](https://img.shields.io/github/release/jinliming2/Chrome-Charset.svg)](https://github.com/jinliming2/Chrome-Charset/releases)
@@ -48,8 +58,69 @@ GitHub Release 中的 crx 文件都是从 Google Chrome Web Store 下载的而�
 
 ## History
 ### v1.0.0(2025/09/04)
+1. [Refactoring] Migrated to [Manifest V3](https://developer.chrome.com/docs/extensions/develop/migrate) (GitHub Issue: [#28](https://github.com/jinliming2/Chrome-Charset/issues/28))
+   * Due to [Manifest V3 restrictions](https://github.com/jinliming2/Chrome-Charset/issues/28#issuecomment-3240343366:~:text=%E5%8F%A6%E5%A4%96%E4%B8%80%E4%B8%AA%E5%B0%B1%E6%98%AF%20Manifest%20V3%20%E7%9A%84%E5%90%8E%E5%8F%B0%E6%9C%8D%E5%8A%A1%E6%94%B9%E7%94%A8%20Service%20Worker%EF%BC%8C%E5%9C%A8%20Service%20Worker%20%E4%B8%8B%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%20XMLHttpRequest%20API%EF%BC%8C%E8%BF%99%E5%8F%AF%E8%83%BD%E5%AF%BC%E8%87%B4%E6%97%A0%E6%B3%95%E7%9B%B4%E6%8E%A5%E4%BF%AE%E6%94%B9%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%20file%3A//...%20%E7%9A%84%E7%BC%96%E7%A0%81%EF%BC%88%E9%9C%80%E8%A6%81%20overrideMimeType%EF%BC%89%E3%80%82fetch%20API%20%E6%B2%A1%E6%9C%89%E7%B1%BB%E4%BC%BC%E7%9A%84%E6%96%B9%E6%B3%95%EF%BC%8C%E6%88%91%E5%8F%AF%E8%83%BD%E9%9C%80%E8%A6%81%E5%86%8D%E6%89%BE%E6%89%BE%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95%EF%BC%8C%E4%B8%8D%E8%BF%87%E8%BF%99%E4%B8%AA%E5%85%88%E4%B8%8D%E5%AE%9E%E7%8E%B0%EF%BC%8C%E5%90%8E%E9%9D%A2%E6%89%BE%E5%88%B0%E6%96%B9%E6%B3%95%E5%86%8D%E8%AF%B4%E3%80%82), support for the `file` protocol has been temporarily removed.
+   * Due to [Manifest V3 restrictions](https://github.com/jinliming2/Chrome-Charset/issues/28), some scenarios may result in abnormal webpage display after encoding replacement. Please submit an issue if encountered.
+   * Currently, a workaround has been implemented to support pages rendered using JavaScript (e.g., frameworks like React or Vue). If any issues arise, feel free to submit an issue.
+
+### v0.5.5(2020/12/9)
+1. [Optimization] When the file protocol lacks permissions, do not pop up the prompt box every time, now only shown once (GitHub Issue: [#23](https://github.com/jinliming2/Chrome-Charset/issues/23))
+
+### v0.5.4(2020/7/6)
+1. [Matching] Prioritize matching based on request type (GitHub Issue: [#18](https://github.com/jinliming2/Chrome-Charset/issues/18))
+2. [i18n] Supplementary extended description
+
+### v0.5.3(2020/3/15)
+1. [Style] Adapt to the new Edge browser
+
+### v0.5.2(2019/5/12)
+1. [Style] Adapt to the Dark mode theme in the new Chrome
+
+### v0.5.1(2019/3/19)
+1. [Fixed] Due to the fact that v0.5.0 was released with one file lost, the extension could not be installed or updated from Chrome Store.
+
+### v0.5.0(2019/3/15)
+1. [Refactoring] Change the encoding probe script to perform on demand
+2. [Refactoring] The network request event is changed to on-demand registration and uninstalled when the extension doesn't need to work.
+3. [i18n] Add translations in multiple national languages ​​and optimize page layout for some RTL languages
+4. [i18n] The encoding list is optimized for each country's language, and the pinned encoding is selected in the current language. The encoding list is sorted according to the current language.
+5. [New] Record and pin the three most recently used encodings
+6. [New] Supports setting default encoding, which works for all pages (GitHub Issue: [#8](https://github.com/jinliming2/Chrome-Charset/issues/8))
+7. [New] Configuration Options Page
+8. [style] Redesign popup popup page style
+
+### v0.4.3(2019/1/5)
+1. [Fixed] The problem that encoding modification failed due to Chrome 72 (maybe earlier) starting to support Network Service
+
+### v0.4.2(2018/2/24)
+1. [Fixed] If the site does not provide a Content-Type, we should use text/plain as the default Content-Type instead of text/html (GitHub Issue: [#5](https://github.com/jinliming2/Chrome-Charset/issues/5))
+
+### v0.4.1(2017/7/31)
+1. [Fixed] The Content-Type of some pure JS content is application/x-javascript, which causes the matching to fail without converting the encoding (GitHub Issue: [#2](https://github.com/jinliming2/Chrome-Charset/issues/2))
+
+### v0.4(2017/7/1)
+1. New setting option: Allow setting whether to display in the context menu (GitHub Issue: [#1](https://github.com/jinliming2/Chrome-Charset/issues/1))
+2. Set the default language to English (en), the browser in Chinese and English are not affected, browsers in other languages display in English by default（From Chrome Web Store）
+
+### v0.3.1(2017/5/7)
+1. [Fixed] The bug that the html document encoding failed to be modified under the file protocol.
+
+### v0.3(2017/4/17)
+1. Added support for file:// protocol local files.
+
+### v0.2(2017/3/22)
+1. Modify the code list loading logic.
+2. The popup window displays a comment when it detects the current encoding.
+3. Add a context menu.
+4. Add English support.
+
+### v0.1(2017/2/14)
+1. Beta Version, Supports the encodings listed in the Chrome 54 Select Encoding feature.
+
+## 版本更新历史
+### v1.0.0(2025/09/04)
 1. 【重构】迁移 [Manifest V3](https://developer.chrome.com/docs/extensions/develop/migrate)（GitHub Issue: [#28](https://github.com/jinliming2/Chrome-Charset/issues/28)）
-   * 受限于 [Manifest V3 的限制](https://github.com/jinliming2/Chrome-Charset/issues/28#issuecomment-3240343366:~:text=%E5%8F%A6%E5%A4%96%E4%B8%80%E4%B8%AA%E5%B0%B1%E6%98%AF%20Manifest%20V3%20%E7%9A%84%E5%90%8E%E5%8F%B0%E6%9C%8D%E5%8A%A1%E6%94%B9%E7%94%A8%20Service%20Worker%EF%BC%8C%E5%9C%A8%20Service%20Worker%20%E4%B8%8B%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%20XMLHttpRequest%20API%EF%BC%8C%E8%BF%99%E5%8F%AF%E8%83%BD%E5%AF%BC%E8%87%B4%E6%97%A0%E6%B3%95%E7%9B%B4%E6%8E%A5%E4%BF%AE%E6%94%B9%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%20file%3A//...%20%E7%9A%84%E7%BC%96%E7%A0%81%EF%BC%88%E9%9C%80%E8%A6%81%20overrideMimeType%EF%BC%89%E3%80%82fetch%20API%20%E6%B2%A1%E6%9C%89%E7%B1%BB%E4%BC%BC%E7%9A%84%E6%96%B9%E6%B3%95%EF%BC%8C%E6%88%91%E5%8F%AF%E8%83%BD%E9%9C%80%E8%A6%81%E5%86%8D%E6%89%BE%E6%89%BE%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95%EF%BC%8C%E4%B8%8D%E8%BF%87%E8%BF%99%E4%B8%AA%E5%85%88%E4%B8%8D%E5%AE%9E%E7%8E%B0%EF%BC%8C%E5%90%8E%E9%9D%A2%E6%89%BE%E5%88%B0%E6%96%B9%E6%B3%95%E5%86%8D%E8%AF%B4%E3%80%82)，临时去除 file 协议支持
+   * 受限于 [Manifest V3 的限制](https://github.com/jinliming2/Chrome-Charset/issues/28#issuecomment-3240343366:~:text=%E5%8F%A6%E5%A4%96%E4%B8%80%E4%B8%AA%E5%B0%B1%E6%98%AF%20Manifest%20V3%20%E7%9A%84%E5%90%8E%E5%8F%B0%E6%9C%8D%E5%8A%A1%E6%94%B9%E7%94%A8%20Service%20Worker%EF%BC%8C%E5%9C%A8%20Service%20Worker%20%E4%B8%8B%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%20XMLHttpRequest%20API%EF%BC%8C%E8%BF%99%E5%8F%AF%E8%83%BD%E5%AF%BC%E8%87%B4%E6%97%A0%E6%B3%95%E7%9B%B4%E6%8E%A5%E4%BF%AE%E6%94%B9%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%20file%3A//...%20%E7%9A%84%E7%BC%96%E7%A0%81%EF%BC%88%E9%9C%80%E8%A6%81%20overrideMimeType%EF%BC%89%E3%80%82fetch%20API%20%E6%B2%A1%E6%9C%89%E7%B1%BB%E4%BC%BC%E7%9A%84%E6%96%B9%E6%B3%95%EF%BC%8C%E6%88%91%E5%8F%AF%E8%83%BD%E9%9C%80%E8%A6%81%E5%86%8D%E6%89%BE%E6%89%BE%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95%EF%BC%8C%E4%B8%8D%E8%BF%87%E8%BF%99%E4%B8%AA%E5%85%88%E4%B8%8D%E5%AE%9E%E7%8E%B0%EF%BC%8C%E5%90%8E%E9%9D%A2%E6%89%BE%E5%88%B0%E6%96%B9%E6%B3%95%E5%86%8D%E8%AF%B4%E3%80%82)，临时去除 `file` 协议支持
    * 受限于 [Manifest V3 的限制](https://github.com/jinliming2/Chrome-Charset/issues/28)，部分场景下可能出现编码替换后网页展示异常，请提交 issue
    * 目前通过一些变通的方法来支持了依赖 JavaScript 来渲染的页面（使用类似于 React、Vue 之类的框架），如果遇到问题，欢迎提交 issue
 
