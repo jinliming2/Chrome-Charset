@@ -47,6 +47,12 @@ Releases from GitHub are downloaded from Google Chrome Web Store, so it also inc
 GitHub Release 中的 crx 文件都是从 Google Chrome Web Store 下载的而不是自己打包的，所以包含了升级信息以及校验元数据，安装后应该不会报警告，同时也会自动到商店检查更新。
 
 ## History
+### v1.0.0(2025/09/04)
+1. 【重构】迁移 [Manifest V3](https://developer.chrome.com/docs/extensions/develop/migrate)（GitHub Issue: [#28](https://github.com/jinliming2/Chrome-Charset/issues/28)）
+   * 受限于 [Manifest V3 的限制](https://github.com/jinliming2/Chrome-Charset/issues/28#issuecomment-3240343366:~:text=%E5%8F%A6%E5%A4%96%E4%B8%80%E4%B8%AA%E5%B0%B1%E6%98%AF%20Manifest%20V3%20%E7%9A%84%E5%90%8E%E5%8F%B0%E6%9C%8D%E5%8A%A1%E6%94%B9%E7%94%A8%20Service%20Worker%EF%BC%8C%E5%9C%A8%20Service%20Worker%20%E4%B8%8B%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%20XMLHttpRequest%20API%EF%BC%8C%E8%BF%99%E5%8F%AF%E8%83%BD%E5%AF%BC%E8%87%B4%E6%97%A0%E6%B3%95%E7%9B%B4%E6%8E%A5%E4%BF%AE%E6%94%B9%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%20file%3A//...%20%E7%9A%84%E7%BC%96%E7%A0%81%EF%BC%88%E9%9C%80%E8%A6%81%20overrideMimeType%EF%BC%89%E3%80%82fetch%20API%20%E6%B2%A1%E6%9C%89%E7%B1%BB%E4%BC%BC%E7%9A%84%E6%96%B9%E6%B3%95%EF%BC%8C%E6%88%91%E5%8F%AF%E8%83%BD%E9%9C%80%E8%A6%81%E5%86%8D%E6%89%BE%E6%89%BE%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95%EF%BC%8C%E4%B8%8D%E8%BF%87%E8%BF%99%E4%B8%AA%E5%85%88%E4%B8%8D%E5%AE%9E%E7%8E%B0%EF%BC%8C%E5%90%8E%E9%9D%A2%E6%89%BE%E5%88%B0%E6%96%B9%E6%B3%95%E5%86%8D%E8%AF%B4%E3%80%82)，临时去除 file 协议支持
+   * 受限于 [Manifest V3 的限制](https://github.com/jinliming2/Chrome-Charset/issues/28)，部分场景下可能出现编码替换后网页展示异常，请提交 issue
+   * 目前通过一些变通的方法来支持了依赖 JavaScript 来渲染的页面（使用类似于 React、Vue 之类的框架），如果遇到问题，欢迎提交 issue
+
 ### v0.5.5(2020/12/9)
 1. 【优化】file 协议缺少权限时，不要每次都弹提示框，现在仅弹一次（GitHub Issue: [#23](https://github.com/jinliming2/Chrome-Charset/issues/23)）
 

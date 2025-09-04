@@ -1,7 +1,7 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "__MSG_appName__",
-  "version": "0.5.5",
+  "version": "1.0.0",
   "default_locale": "en",
   "description": "__MSG_appDescription__",
   "icons": {
@@ -12,7 +12,7 @@
     "19": "i/19.png",
     "16": "i/16.png"
   },
-  "browser_action": {
+  "action": {
     "default_icon": {
       "38": "i/38.png",
       "19": "i/19.png"
@@ -22,28 +22,28 @@
   },
   "author": "Liming Jin, jinliming2@gmail.com",
   "background": {
-    "scripts": [
-      "j/encoding.js",
-      "j/background.js",
-      "j/menu.js"
-    ],
-    "persistent": true
+    "service_worker": "j/background.js",
+    "type": "module"
   },
   "homepage_url": "https://github.com/jinliming2/Chrome-Charset",
   "incognito": "split",
-  "minimum_chrome_version": "55.0.2872.0",
+  "minimum_chrome_version": "96",
   "offline_enabled": true,
   "options_ui": {
-    "chrome_style": false,
     "page": "option.html",
     "open_in_tab": false
   },
   "permissions": [
-    "<all_urls>",
-    "webRequest",
-    "webRequestBlocking",
-    "contextMenus",
-    "tabs"
+    "activeTab",
+    "declarativeNetRequestWithHostAccess",
+    "scripting",
+    "storage"
+  ],
+  "optional_host_permissions": [
+    "<all_urls>"
+  ],
+  "optional_permissions": [
+    "contextMenus"
   ],
   "short_name": "__MSG_appShortName__"
 }

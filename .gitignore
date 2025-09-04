@@ -3,3 +3,5 @@ Chrome-Charset.zip
 pack.js
 package.json
 yarn.lock
+pnpm-lock.yaml
+.DS_Store

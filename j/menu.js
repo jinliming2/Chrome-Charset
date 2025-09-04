@@ -1,25 +1,33 @@
 /**
  * Created by Liming on 2017/3/22.
  */
+import { setEncoding, resetEncoding } from './background.js';
+import { getENCODINGS } from './encoding.js';
+import { getEncoding } from './utils.js';
+
 const rtl = chrome.i18n.getMessage('@@bidi_dir') === 'rtl' ? '\u{200f}' : '';
 const printEncodingInfo = info => `${info[1]} ${rtl}(${info[0]})`;
 
 let selectedMenu;
 
-const menuClicked = (info, tab) => {
+const menuClicked = async (info, tab) => {
   if (info.wasChecked) {
     return;
   }
   if (info.menuItemId === 'default') {
     resetEncoding(tab.id);
   } else {
-    setEncoding(tab.id, info.menuItemId);
+    const [{ result: contentType = 'text/html' }] = await chrome.scripting.executeScript({
+      target: { tabId: tab.id },
+      func: () => document.contentType,
+    });
+    setEncoding(tab.id, contentType, info.menuItemId);
   }
-  chrome.tabs.reload(tab.id, { bypassCache: true });
+  await chrome.tabs.reload(tab.id, { bypassCache: true });
 };
 
 const updateMenu = tabId => {
-  const encoding = getEncoding(tabId) || 'default';
+  const encoding = getEncoding(tabId)?.encoding || 'default';
   if (selectedMenu === encoding) {
     return;
   }
@@ -39,16 +47,19 @@ const windowsFocusedEvent = () => {
   });
 };
 
-const createMenu = () => {
+export const createMenu = async () => {
+  if (!(await chrome.storage.local.get('configMenu')).configMenu) {
+    return;
+  }
+
   chrome.contextMenus.create({
     type: 'radio',
     id: 'default',
     title: chrome.i18n.getMessage('default'),
     checked: true,
-    onclick: menuClicked,
   });
   selectedMenu = 'default';
-  for (const encoding of ENCODINGS) {
+  for (const encoding of await getENCODINGS()) {
     if (encoding.length === 1) {
       continue;
     }
@@ -57,21 +68,21 @@ const createMenu = () => {
       id: encoding[0],
       title: printEncodingInfo(encoding),
       checked: false,
-      onclick: menuClicked,
     });
   }
   chrome.tabs.onUpdated.addListener(tabUpdatedEvent);
   chrome.tabs.onActivated.addListener(tabActivatedEvent);
   chrome.windows.onFocusChanged.addListener(windowsFocusedEvent);
+  chrome.contextMenus.onClicked.addListener(menuClicked);
 };
 
-const removeMenu = () => {
+export const removeMenu = () => {
   chrome.contextMenus.removeAll();
   chrome.tabs.onUpdated.removeListener(tabUpdatedEvent);
   chrome.tabs.onActivated.removeListener(tabActivatedEvent);
   chrome.windows.onFocusChanged.removeListener(windowsFocusedEvent);
+  chrome.contextMenus.onClicked.removeListener(menuClicked);
+  selectedMenu = undefined;
 };
 
-if (localStorage.getItem('config_menu') === 'true') {
-  createMenu();
-}
+createMenu();

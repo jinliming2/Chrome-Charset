@@ -1,7 +1,6 @@
 /**
  * Created by Liming on 2017/3/22.
  */
-const recentlySelectedEncodingList = (localStorage.getItem('recent') || '').split(',');
 const LocaleDependentStaticEncodingList = (chrome.i18n.getMessage('staticEncodingList') || '').split(',');
 //Encoding List
 const ENCODINGS = [
@@ -42,32 +41,38 @@ const ENCODINGS = [
   ['Windows-1256', chrome.i18n.getMessage('encodingArabic')],
   ['Windows-1257', chrome.i18n.getMessage('encodingBaltic')],
   ['Windows-1258', chrome.i18n.getMessage('encodingVietnamese')],
-].sort(([a, nameA], [b, nameB]) => {
-  // we always put UTF-8 as top position
-  if (a === 'UTF-8') return -1;
-  if (b === 'UTF-8') return 1;
-  // then put local dependent encoding items
-  {
-    const hasA = LocaleDependentStaticEncodingList.indexOf(a);
-    const hasB = LocaleDependentStaticEncodingList.indexOf(b);
-    if (hasA >= 0 && hasB >= 0) return hasA > hasB ? 1 : -1;
-    if (hasA >= 0) return -1;
-    if (hasB >= 0) return 1;
-  }
-  // then put user recently selected encodings
-  {
-    const hasA = recentlySelectedEncodingList.indexOf(a);
-    const hasB = recentlySelectedEncodingList.indexOf(b);
-    if (hasA >= 0 && hasB >= 0) return hasA > hasB ? 1 : -1;
-    if (hasA >= 0) return -1;
-    if (hasB >= 0) return 1;
-  }
-  // then put a delimiter
-  if (a === '<hr>') return -1;
-  if (b === '<hr>') return 1;
-  // then put UTF-16LE
-  if (a === 'UTF-16LE') return -1;
-  if (b === 'UTF-16LE') return 1;
-  // sort all left encodings by their name
-  return nameA.localeCompare(nameB, chrome.i18n.getUILanguage());
-});
+];
+
+export const getENCODINGS = async () => {
+  const { recent: recentlySelectedEncodingList = [] } = await chrome.storage.local.get('recent');
+
+  return ENCODINGS.sort(([a, nameA], [b, nameB]) => {
+    // we always put UTF-8 as top position
+    if (a === 'UTF-8') return -1;
+    if (b === 'UTF-8') return 1;
+    // then put local dependent encoding items
+    {
+      const hasA = LocaleDependentStaticEncodingList.indexOf(a);
+      const hasB = LocaleDependentStaticEncodingList.indexOf(b);
+      if (hasA >= 0 && hasB >= 0) return hasA > hasB ? 1 : -1;
+      if (hasA >= 0) return -1;
+      if (hasB >= 0) return 1;
+    }
+    // then put user recently selected encodings
+    {
+      const hasA = recentlySelectedEncodingList.indexOf(a);
+      const hasB = recentlySelectedEncodingList.indexOf(b);
+      if (hasA >= 0 && hasB >= 0) return hasA > hasB ? 1 : -1;
+      if (hasA >= 0) return -1;
+      if (hasB >= 0) return 1;
+    }
+    // then put a delimiter
+    if (a === '<hr>') return -1;
+    if (b === '<hr>') return 1;
+    // then put UTF-16LE
+    if (a === 'UTF-16LE') return -1;
+    if (b === 'UTF-16LE') return 1;
+    // sort all left encodings by their name
+    return nameA.localeCompare(nameB, chrome.i18n.getUILanguage());
+  });
+};
